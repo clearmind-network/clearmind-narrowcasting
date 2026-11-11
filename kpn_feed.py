@@ -3,8 +3,14 @@ import json
 import re
 import html
 import urllib.request
+
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
+
+
+# ==========================================
+# CONFIGURATIE
+# ==========================================
 
 API_URL = (
     "https://routit.service-now.com/api/now/sp/page"
@@ -13,7 +19,27 @@ API_URL = (
 )
 
 TIMEZONE = ZoneInfo("Europe/Amsterdam")
+DAYS_AHEAD = 14
 
+DUTCH_MONTHS = {
+    "januari": 1,
+    "februari": 2,
+    "maart": 3,
+    "april": 4,
+    "mei": 5,
+    "juni": 6,
+    "juli": 7,
+    "augustus": 8,
+    "september": 9,
+    "oktober": 10,
+    "november": 11,
+    "december": 12,
+}
+
+
+# ==========================================
+# KPN API OPHALEN
+# ==========================================
 
 def fetch_kpn_records():
     request = urllib.request.Request(
@@ -24,14 +50,26 @@ def fetch_kpn_records():
         },
     )
 
-    with urllib.request.urlopen(request, timeout=20) as response:
+    with urllib.request.urlopen(
+        request,
+        timeout=20
+    ) as response:
         data = json.load(response)
 
-    containers = data["result"]["containers"]
-    widget = containers[0]["rows"][0]["columns"][0]["widgets"][0]["widget"]
+    widget = (
+        data["result"]["containers"][0]
+        ["rows"][0]
+        ["columns"][0]
+        ["widgets"][0]
+        ["widget"]
+    )
 
     return widget["data"]
 
+
+# ==========================================
+# TEKST OPSCHONEN
+# ==========================================
 
 def clean_description(description):
     description = re.sub(
@@ -40,46 +78,128 @@ def clean_description(description):
         description or "",
         flags=re.IGNORECASE,
     )
-    description = re.sub(r"<[^>]+>", "", description)
-    return " ".join(html.unescape(description).split())
 
+    description = re.sub(
+        r"<[^>]+>",
+        "",
+        description
+    )
+
+    return " ".join(
+        html.unescape(description).split()
+    )
+
+
+# ==========================================
+# DATUMVERWERKING
+# ==========================================
 
 def parse_kpn_date(value):
     if not value:
         return None
 
+    value = str(value).strip()
+
+    # Technische datum, bijvoorbeeld:
+    # 2026-11-11 17:45:00
     try:
-        date = datetime.fromisoformat(str(value).strip())
+        date = datetime.fromisoformat(value)
 
         if date.tzinfo is None:
             date = date.replace(tzinfo=TIMEZONE)
 
         return date.astimezone(TIMEZONE)
 
-    except (ValueError, TypeError):
+    except ValueError:
+        pass
+
+    # Nederlandse datum, bijvoorbeeld:
+    # woensdag 11 november 2026 17:45
+    match = re.search(
+        r"(\d{1,2})\s+([a-zA-Z]+)\s+"
+        r"(\d{4})\s+(\d{1,2}):(\d{2})",
+        value.lower()
+    )
+
+    if not match:
+        return None
+
+    day, month_name, year, hour, minute = match.groups()
+
+    month = DUTCH_MONTHS.get(month_name)
+
+    if month is None:
+        return None
+
+    try:
+        return datetime(
+            int(year),
+            month,
+            int(day),
+            int(hour),
+            int(minute),
+            tzinfo=TIMEZONE,
+        )
+
+    except ValueError:
         return None
 
 
+def get_record_dates(record):
+    start = parse_kpn_date(
+        record.get("start_date_raw")
+        or record.get("start_date")
+    )
+
+    end = parse_kpn_date(
+        record.get("end_date_raw")
+        or record.get("end_date")
+    )
+
+    return start, end
+
+
+# ==========================================
+# STORINGEN EN ONDERHOUD FILTEREN
+# ==========================================
+
 def filter_kpn_records(records):
     now = datetime.now(TIMEZONE)
-    horizon = now + timedelta(days=14)
+    horizon = now + timedelta(days=DAYS_AHEAD)
 
     disruptions = []
     maintenance = []
 
-    # Storingen filteren
-    for record in records.get("recordsDisruption", []):
-        title = record.get("title", "").strip()
+    seen_disruptions = set()
+    seen_maintenance = set()
+
+    # Storingen
+    for record in records.get(
+        "recordsDisruption", []
+    ):
+        title = str(
+            record.get("title") or ""
+        ).strip()
 
         if title.upper().startswith("[OPGELOST]"):
             continue
 
+        record_id = (
+            record.get("sys_id")
+            or title
+        )
+
+        if record_id in seen_disruptions:
+            continue
+
+        seen_disruptions.add(record_id)
         disruptions.append(record)
 
-    # Onderhoud filteren
-    for record in records.get("recordsMaintenance", []):
-        start = parse_kpn_date(record.get("start_date_raw"))
-        end = parse_kpn_date(record.get("end_date_raw"))
+    # Onderhoud
+    for record in records.get(
+        "recordsMaintenance", []
+    ):
+        start, end = get_record_dates(record)
 
         if start is None:
             continue
@@ -87,67 +207,134 @@ def filter_kpn_records(records):
         if end is not None and end < start:
             continue
 
+        # Onderhoud binnen 14 dagen
         upcoming = now <= start <= horizon
 
+        # Onderhoud dat momenteel loopt
         ongoing = (
             start <= now
             and end is not None
-            and end >= now
+            and now <= end
         )
 
-        if upcoming or ongoing:
-            maintenance.append(record)
+        if not (upcoming or ongoing):
+            continue
+
+        record_id = (
+            record.get("sys_id")
+            or (
+                record.get("title"),
+                record.get("start_date")
+            )
+        )
+
+        if record_id in seen_maintenance:
+            continue
+
+        seen_maintenance.add(record_id)
+
+        maintenance.append(record)
+
+    # Eerstvolgend onderhoud bovenaan
+    maintenance.sort(
+        key=lambda record: (
+            get_record_dates(record)[0]
+            or datetime.max.replace(
+                tzinfo=TIMEZONE
+            )
+        )
+    )
 
     return disruptions, maintenance
 
 
-def check_end_dates(records):
-    print()
-    print("=== KPN EINDTIJD CONTROLE ===")
+# ==========================================
+# API VELDEN CONTROLEREN
+# ==========================================
 
-    sample = records.get("recordsMaintenance", [])[:3]
+def check_kpn_fields(records):
+    print()
+    print("=== KPN API VELDEN CONTROLE ===")
+
+    sample = records.get(
+        "recordsMaintenance", []
+    )[:3]
 
     if not sample:
-        print("Geen onderhoudsmeldingen gevonden.")
+        print("Geen onderhoud gevonden.")
         return
 
     for record in sample:
+        start, end = get_record_dates(record)
+
         print()
-        print("Melding:", record.get("title", "Onbekend"))
-        print("Start:", record.get("start_date", "Onbekend"))
-        print("Einde:", record.get("end_date", "Onbekend"))
         print(
-            "Eindtijd aanwezig:",
-            bool(record.get("end_date_raw"))
+            "Melding:",
+            record.get("title", "Onbekend")
         )
+
         print(
-            "Eindtijd raw:",
+            "Beschikbare velden:",
+            sorted(record.keys())
+        )
+
+        print(
+            "Start raw:",
+            record.get("start_date_raw")
+        )
+
+        print(
+            "Einde raw:",
             record.get("end_date_raw")
         )
 
+        print(
+            "Start verwerkt:",
+            start.isoformat() if start else "Onbekend"
+        )
+
+        print(
+            "Einde verwerkt:",
+            end.isoformat() if end else "Onbekend"
+        )
+
+
+# ==========================================
+# TESTRESULTATEN TONEN
+# ==========================================
 
 def main():
     records = fetch_kpn_records()
 
-    # Controleer welke eindtijdvelden KPN levert
-    check_end_dates(records)
+    check_kpn_fields(records)
 
-    # Filter storingen en onderhoud
-    disruptions, maintenance = filter_kpn_records(records)
+    disruptions, maintenance = filter_kpn_records(
+        records
+    )
 
     print()
-    print("=== KPN CSP REPORTER - TESTOVERZICHT ===")
-    print(f"Niet-opgeloste storingen: {len(disruptions)}")
-    print(f"Relevant onderhoud: {len(maintenance)}")
+    print("=== KPN CSP REPORTER ===")
+
+    print(
+        "Niet-opgeloste storingen:",
+        len(disruptions)
+    )
+
+    print(
+        "Relevant onderhoud:",
+        len(maintenance)
+    )
 
     print()
     print("=== STORINGEN ===")
 
     for record in disruptions:
+        print()
         print(
             "[STORING]",
             record.get("title", "Onbekend")
         )
+
         print(
             "Diensten:",
             record.get("categories", "Onbekend")
@@ -157,21 +344,40 @@ def main():
     print("=== ONDERHOUD ===")
 
     for record in maintenance:
+        start, end = get_record_dates(record)
+
+        now = datetime.now(TIMEZONE)
+
+        status = (
+            "BEZIG"
+            if start <= now and end and now <= end
+            else "GEPLAND"
+        )
+
+        print()
         print(
-            "[ONDERHOUD]",
+            f"[{status}]",
             record.get("title", "Onbekend")
         )
+
         print(
             "Start:",
             record.get("start_date", "Onbekend")
         )
+
         print(
             "Einde:",
             record.get("end_date", "Onbekend")
         )
+
         print(
             "Diensten:",
             record.get("categories", "Onbekend")
+        )
+
+        print(
+            "ID:",
+            record.get("sys_id", "Onbekend")
         )
 
 
