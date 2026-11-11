@@ -62,6 +62,20 @@
       <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
+      <title>Kamermotie wil aanpak hard- en software waarmee mensen zijn te bespioneren</title>
+      <description>Het kabinet moet in Europees verband onderzoeken of producteisen of productverboden mogelijk zijn voor hard- en software ...</description>
+      <link>https://www.security.nl/posting/961028/Kamermotie+wil+aanpak+hard-+en+software+waarmee+mensen+zijn+te+bespioneren?channel=rss</link>
+      <guid>https://www.security.nl/posting/961028/Kamermotie+wil+aanpak+hard-+en+software+waarmee+mensen+zijn+te+bespioneren</guid>
+      <pubDate>Wed, 11 Nov 2026 10:03:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Microsoft dicht ruim duizend kwetsbaarheden tijdens Patch Tuesday</title>
+      <description>Tijdens de Patch Tuesday van november heeft Microsoft ruim duizend kwetsbaarheden verholpen, waaronder een actief misbruikt ...</description>
+      <link>https://www.security.nl/posting/961158/Microsoft+dicht+ruim+duizend+kwetsbaarheden+tijdens+Patch+Tuesday?channel=rss</link>
+      <guid>https://www.security.nl/posting/961158/Microsoft+dicht+ruim+duizend+kwetsbaarheden+tijdens+Patch+Tuesday</guid>
+      <pubDate>Wed, 11 Nov 2026 09:36:39 +0100</pubDate>
+    </item>
+    <item>
       <title>Kritiek Synology-lek geeft aanvaller toegang tot bestanden op NAS-systeem</title>
       <description>Een kritiek SQL Injection-lek in NAS-systemen van Synology maakt het mogelijk voor ongeauthenticeerde aanvallers om toegang tot ...</description>
       <link>https://www.security.nl/posting/961107/Kritiek+Synology-lek+geeft+aanvaller+toegang+tot+bestanden+op+NAS-systeem?channel=rss</link>
@@ -81,20 +95,6 @@
       <link>https://www.security.nl/posting/961082/Firefox+biedt+tot+31+januari+onbeperkt+dataverkeer+via+ingebouwde+vpn?channel=rss</link>
       <guid>https://www.security.nl/posting/961082/Firefox+biedt+tot+31+januari+onbeperkt+dataverkeer+via+ingebouwde+vpn</guid>
       <pubDate>Tue, 10 Nov 2026 15:20:49 +0100</pubDate>
-    </item>
-    <item>
-      <title>Kabinet wil biometrische scan bij uitgifte identiteitsbewijs wettelijk vastleggen</title>
-      <description>Het kabinet wil het gebruik van een biometrische scan door gemeenten bij de uitgifte van identiteitsbewijzen wettelijk ...</description>
-      <link>https://www.security.nl/posting/961075/Kabinet+wil+biometrische+scan+bij+uitgifte+identiteitsbewijs+wettelijk+vastleggen?channel=rss</link>
-      <guid>https://www.security.nl/posting/961075/Kabinet+wil+biometrische+scan+bij+uitgifte+identiteitsbewijs+wettelijk+vastleggen</guid>
-      <pubDate>Tue, 10 Nov 2026 14:37:13 +0100</pubDate>
-    </item>
-    <item>
-      <title>N-able haalt clouddienst wegens 'Able2Shell' offline, eerste aanvallen gemeld</title>
-      <description>Softwarebedrijf N-able heeft de cloudversie van N-central offline gehaald en adviseert klanten dit ook met hun on-premises ...</description>
-      <link>https://www.security.nl/posting/961066/N-able+haalt+clouddienst+wegens+%27Able2Shell%27+offline%2C+eerste+aanvallen+gemeld?channel=rss</link>
-      <guid>https://www.security.nl/posting/961066/N-able+haalt+clouddienst+wegens+%27Able2Shell%27+offline%2C+eerste+aanvallen+gemeld</guid>
-      <pubDate>Tue, 10 Nov 2026 14:05:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
