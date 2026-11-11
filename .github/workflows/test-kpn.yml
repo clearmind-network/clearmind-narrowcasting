@@ -22,4 +22,20 @@ jobs:
 
       - name: KPN storingen en onderhoud filteren
         run: python kpn_feed.py
-        
+
+      - name: KPN RSS-testfeed genereren
+        run: |
+          python generate_kpn_test.py
+          test -s kpn-test.xml
+
+      - name: RSS XML controleren
+        run: |
+          python -c "import xml.etree.ElementTree as ET; root = ET.parse('kpn-test.xml').getroot(); assert root.tag == 'rss'; print('KPN RSS XML is geldig')"
+
+      - name: Testfeed beschikbaar maken als artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: kpn-rss-testfeed
+          path: kpn-test.xml
+          if-no-files-found: error
+          retention-days: 7
