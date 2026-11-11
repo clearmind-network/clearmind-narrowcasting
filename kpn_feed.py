@@ -145,18 +145,41 @@ def parse_kpn_date(value):
         return None
 
 
-def get_record_dates(record):
-    start = parse_kpn_date(
-        record.get("start_date_raw")
-        or record.get("start_date")
-    )
 
+    def get_record_dates(record):
+    raw_start = record.get("start_date_raw")
+
+    if raw_start:
+        try:
+            # KPN levert de ruwe begintijd in UTC
+            start = datetime.fromisoformat(
+                str(raw_start).strip()
+            )
+
+            if start.tzinfo is None:
+                start = start.replace(
+                    tzinfo=ZoneInfo("UTC")
+                )
+
+            start = start.astimezone(TIMEZONE)
+
+        except (ValueError, TypeError):
+            start = parse_kpn_date(
+                record.get("start_date")
+            )
+    else:
+        start = parse_kpn_date(
+            record.get("start_date")
+        )
+
+    # KPN levert de eindtijd als Nederlandse datum
     end = parse_kpn_date(
         record.get("end_date_raw")
         or record.get("end_date")
     )
 
     return start, end
+
 
 
 # ==========================================
