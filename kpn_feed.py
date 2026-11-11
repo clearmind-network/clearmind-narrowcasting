@@ -4,7 +4,7 @@ import re
 import html
 import urllib.request
 
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
 
@@ -38,7 +38,7 @@ DUTCH_MONTHS = {
 
 
 # ==========================================
-# KPN API OPHALEN
+# KPN API
 # ==========================================
 
 def fetch_kpn_records():
@@ -51,8 +51,7 @@ def fetch_kpn_records():
     )
 
     with urllib.request.urlopen(
-        request,
-        timeout=20
+        request, timeout=20
     ) as response:
         data = json.load(response)
 
@@ -100,8 +99,7 @@ def parse_kpn_date(value):
 
     value = str(value).strip()
 
-    # Technische datum, bijvoorbeeld:
-    # 2026-11-11 17:45:00
+    # ISO-datum met tijdzone, indien aanwezig
     try:
         date = datetime.fromisoformat(value)
 
@@ -113,19 +111,17 @@ def parse_kpn_date(value):
     except ValueError:
         pass
 
-    # Nederlandse datum, bijvoorbeeld:
-    # woensdag 11 november 2026 17:45
+    # Nederlandse datum
     match = re.search(
         r"(\d{1,2})\s+([a-zA-Z]+)\s+"
         r"(\d{4})\s+(\d{1,2}):(\d{2})",
-        value.lower()
+        value.lower(),
     )
 
     if not match:
         return None
 
     day, month_name, year, hour, minute = match.groups()
-
     month = DUTCH_MONTHS.get(month_name)
 
     if month is None:
@@ -140,26 +136,22 @@ def parse_kpn_date(value):
             int(minute),
             tzinfo=TIMEZONE,
         )
-
     except ValueError:
         return None
 
 
-
-    def get_record_dates(record):
+def get_record_dates(record):
+    # Ruwe begintijd wordt door KPN als UTC geleverd
     raw_start = record.get("start_date_raw")
 
     if raw_start:
         try:
-            # KPN levert de ruwe begintijd in UTC
             start = datetime.fromisoformat(
                 str(raw_start).strip()
             )
 
             if start.tzinfo is None:
-                start = start.replace(
-                    tzinfo=ZoneInfo("UTC")
-                )
+                start = start.replace(tzinfo=timezone.utc)
 
             start = start.astimezone(TIMEZONE)
 
@@ -172,14 +164,13 @@ def parse_kpn_date(value):
             record.get("start_date")
         )
 
-    # KPN levert de eindtijd als Nederlandse datum
+    # Eindtijd wordt als Nederlandse datum geleverd
     end = parse_kpn_date(
         record.get("end_date_raw")
         or record.get("end_date")
     )
 
     return start, end
-
 
 
 # ==========================================
@@ -197,20 +188,14 @@ def filter_kpn_records(records):
     seen_maintenance = set()
 
     # Storingen
-    for record in records.get(
-        "recordsDisruption", []
-    ):
-        title = str(
-            record.get("title") or ""
-        ).strip()
+    for record in records.get("recordsDisruption", []):
+        title = str(record.get("title") or "").strip()
 
+        # Voorlopige detectie van opgeloste storingen
         if title.upper().startswith("[OPGELOST]"):
             continue
 
-        record_id = (
-            record.get("sys_id")
-            or title
-        )
+        record_id = record.get("sys_id") or title
 
         if record_id in seen_disruptions:
             continue
@@ -219,9 +204,7 @@ def filter_kpn_records(records):
         disruptions.append(record)
 
     # Onderhoud
-    for record in records.get(
-        "recordsMaintenance", []
-    ):
+    for record in records.get("recordsMaintenance", []):
         start, end = get_record_dates(record)
 
         if start is None:
@@ -230,10 +213,8 @@ def filter_kpn_records(records):
         if end is not None and end < start:
             continue
 
-        # Onderhoud binnen 14 dagen
         upcoming = now <= start <= horizon
 
-        # Onderhoud dat momenteel loopt
         ongoing = (
             start <= now
             and end is not None
@@ -247,7 +228,7 @@ def filter_kpn_records(records):
             record.get("sys_id")
             or (
                 record.get("title"),
-                record.get("start_date")
+                record.get("start_date"),
             )
         )
 
@@ -255,36 +236,28 @@ def filter_kpn_records(records):
             continue
 
         seen_maintenance.add(record_id)
-
         maintenance.append(record)
 
-    # Eerstvolgend onderhoud bovenaan
+    # Chronologisch sorteren
     maintenance.sort(
-        key=lambda record: (
-            get_record_dates(record)[0]
-            or datetime.max.replace(
-                tzinfo=TIMEZONE
-            )
-        )
+        key=lambda record: get_record_dates(record)[0]
     )
 
     return disruptions, maintenance
 
 
 # ==========================================
-# API VELDEN CONTROLEREN
+# KPN API VELDEN CONTROLEREN
 # ==========================================
 
 def check_kpn_fields(records):
     print()
     print("=== KPN API VELDEN CONTROLE ===")
 
-    sample = records.get(
-        "recordsMaintenance", []
-    )[:3]
+    sample = records.get("recordsMaintenance", [])[:3]
 
     if not sample:
-        print("Geen onderhoud gevonden.")
+        print("Geen onderhoudsmeldingen gevonden.")
         return
 
     for record in sample:
@@ -295,27 +268,22 @@ def check_kpn_fields(records):
             "Melding:",
             record.get("title", "Onbekend")
         )
-
         print(
             "Beschikbare velden:",
             sorted(record.keys())
         )
-
         print(
             "Start raw:",
             record.get("start_date_raw")
         )
-
         print(
             "Einde raw:",
             record.get("end_date_raw")
         )
-
         print(
             "Start verwerkt:",
             start.isoformat() if start else "Onbekend"
         )
-
         print(
             "Einde verwerkt:",
             end.isoformat() if end else "Onbekend"
@@ -323,7 +291,7 @@ def check_kpn_fields(records):
 
 
 # ==========================================
-# TESTRESULTATEN TONEN
+# TESTRESULTATEN
 # ==========================================
 
 def main():
@@ -337,12 +305,10 @@ def main():
 
     print()
     print("=== KPN CSP REPORTER ===")
-
     print(
         "Niet-opgeloste storingen:",
         len(disruptions)
     )
-
     print(
         "Relevant onderhoud:",
         len(maintenance)
@@ -357,7 +323,6 @@ def main():
             "[STORING]",
             record.get("title", "Onbekend")
         )
-
         print(
             "Diensten:",
             record.get("categories", "Onbekend")
@@ -366,38 +331,33 @@ def main():
     print()
     print("=== ONDERHOUD ===")
 
+    now = datetime.now(TIMEZONE)
+
     for record in maintenance:
         start, end = get_record_dates(record)
 
-        now = datetime.now(TIMEZONE)
-
-        status = (
-            "BEZIG"
-            if start <= now and end and now <= end
-            else "GEPLAND"
-        )
+        if start <= now and end is not None and now <= end:
+            status = "BEZIG"
+        else:
+            status = "GEPLAND"
 
         print()
         print(
             f"[{status}]",
             record.get("title", "Onbekend")
         )
-
         print(
             "Start:",
             record.get("start_date", "Onbekend")
         )
-
         print(
             "Einde:",
             record.get("end_date", "Onbekend")
         )
-
         print(
             "Diensten:",
             record.get("categories", "Onbekend")
         )
-
         print(
             "ID:",
             record.get("sys_id", "Onbekend")
