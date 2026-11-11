@@ -20,5 +20,6 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: KPN API testen
-        run: python test_kpn.py
+      - name: KPN storingen en onderhoud filteren
+        run: python kpn_feed.py
+        
