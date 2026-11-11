@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Clear Mind IT Narrowcasting</title>
+    <link>https://clearmind-network.github.io/clearmind-narrowcasting/</link>
+    <description>Clear Mind IT mededelingen en actueel ICT-nieuws</description>
+    <language>nl-NL</language>
+    <item>
+      <title>Kerst &amp; Connect 2026</title>
+      <description>Welkom in Luxwoude! Op 9 december vieren we Kerst &amp; Connect. Clear Mind IT - De IT-partner van het Noorden.</description>
+      <link>https://clearmind-network.github.io/clearmind-narrowcasting/</link>
+      <guid isPermaLink="false">clearmind-kerst-connect-2026</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welkom bij Clear Mind IT</title>
+      <description>Clear Mind IT - De IT-partner van het Noorden. Samen verbinden we mensen en technologie.</description>
+      <link>https://clearmind-network.github.io/clearmind-narrowcasting/</link>
+      <guid isPermaLink="false">clearmind-welkom-clearmind</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Clear Mind IT &amp; KPN Zakelijk</title>
+      <description>Samen werken we aan betrouwbare en toekomstbestendige ICT- en telecomoplossingen.</description>
+      <link>https://clearmind-network.github.io/clearmind-narrowcasting/</link>
+      <guid isPermaLink="false">clearmind-kpn-zakelijk</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Snagit 2025.1.1</title>
+      <description>TechSmith heeft versie 2025.1.1 van Snagit uitgebracht. Met dit programma, dat voor zowel Windows als macOS beschikbaar is, kunnen plaatjes, tekst, bewegende beelden en webpagina's worden afgevangen en bewerkt. Zo kunnen er effecten als perspectief, spotlight en magnify op worden losgelaten. Verder kunnen ter verduidelijking teksten, pijlen en cirkels worden aangebracht. De screenshots kunnen als afbeeldingen worden opgeslagen of direct in diverse programma's zoals Word en PowerPoint worden geïmporteerd. In deze uitgave zijn de volgende veranderingen en verbeteringen aangebracht: Feature Updates</description>
+      <link>https://tweakers.net/downloads/72418/snagit-202511.html</link>
+      <guid>https://tweakers.net/downloads/72418</guid>
+      <pubDate>Tue, 22 Apr 2025 08:30:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Nvidia brengt hotfix uit voor bug die gpu-temperatuur verkeerd weergeeft</title>
+      <description>Nvidia heeft een hotfix uitgebracht voor de nieuwste GeForce-driver. Die moet onder meer verhelpen dat monitoringsoftware in bepaalde gevallen de temperatuur van de gpu verkeerd uitleest, waardoor custom fanprofielen niet meer naar behoren werken.</description>
+      <link>https://tweakers.net/nieuws/234180/nvidia-brengt-hotfix-uit-voor-bug-die-gpu-temperatuur-verkeerd-weergeeft.html</link>
+      <guid>https://tweakers.net/nieuws/234180</guid>
+      <pubDate>Tue, 22 Apr 2025 07:52:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bulk Rename Utility 4.0.0.7</title>
+      <description>Bulk Rename Utility is een programma waarmee de naam of locatie van meerdere bestanden en/of mappen tegelijk kan worden gewijzigd. Zo kunnen er bijvoorbeeld tekens worden toegevoegd, vervangen of verwijderd worden, of kan de naam aan de hand van metadata of d3-tags worden aangepast. Het programma is gratis voor persoonlijk gebruik; voor gebruik in commerciële omgevingen wordt wel een vergoeding gevraagd. Versie 4.0.0.7 van Bulk Rename Utility uitgekomen en hierin zijn de volgende veranderingen en verbeteringen aangebracht: Changes in Bulk Rename Utility 4.0.0.7:</description>
+      <link>https://tweakers.net/downloads/72414/bulk-rename-utility-4007.html</link>
+      <guid>https://tweakers.net/downloads/72414</guid>
+      <pubDate>Tue, 22 Apr 2025 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Betaalprovider Adyen getroffen door meerdere ddos-aanvallen</title>
+      <description>Het Nederlandse betaalplatform Adyen is afgelopen maandag getroffen door een drietal ddos-aanvallen. Dat zou hebben geleid tot betalingsproblemen, zowel online als in fysieke winkels en horecazaken. Volgens het bedrijf zijn de problemen inmiddels verholpen.</description>
+      <link>https://tweakers.net/nieuws/234178/betaalprovider-adyen-getroffen-door-meerdere-ddos-aanvallen.html</link>
+      <guid>https://tweakers.net/nieuws/234178</guid>
+      <pubDate>Tue, 22 Apr 2025 06:53:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>Id Software deelt tweede trailer van Doom: The Dark Ages</title>
+      <description>Ontwikkelaar id Software publiceert de tweede trailer van Doom: The Dark Ages. Zowel het verhaal als de gameplay komen aan bod. De actiegame komt op 15 mei uit voor de pc, Xbox Series X/S en de PlayStation 5.</description>
+      <link>https://tweakers.net/nieuws/234176/id-software-deelt-tweede-trailer-van-doom-the-dark-ages.html</link>
+      <guid>https://tweakers.net/nieuws/234176</guid>
+      <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>Kritiek Synology-lek geeft aanvaller toegang tot bestanden op NAS-systeem</title>
+      <description>Een kritiek SQL Injection-lek in NAS-systemen van Synology maakt het mogelijk voor ongeauthenticeerde aanvallers om toegang tot ...</description>
+      <link>https://www.security.nl/posting/961107/Kritiek+Synology-lek+geeft+aanvaller+toegang+tot+bestanden+op+NAS-systeem?channel=rss</link>
+      <guid>https://www.security.nl/posting/961107/Kritiek+Synology-lek+geeft+aanvaller+toegang+tot+bestanden+op+NAS-systeem</guid>
+      <pubDate>Tue, 10 Nov 2026 16:55:04 +0100</pubDate>
+    </item>
+    <item>
+      <title>Belgische overheid waarschuwt voor misbruik van inloggen via sms</title>
+      <description>De Belgische overheid waarschuwt organisaties voor aanvallers die inloggen via sms misbruiken. Meerdere Belgische organisaties ...</description>
+      <link>https://www.security.nl/posting/961099/Belgische+overheid+waarschuwt+voor+misbruik+van+inloggen+via+sms?channel=rss</link>
+      <guid>https://www.security.nl/posting/961099/Belgische+overheid+waarschuwt+voor+misbruik+van+inloggen+via+sms</guid>
+      <pubDate>Tue, 10 Nov 2026 16:17:30 +0100</pubDate>
+    </item>
+    <item>
+      <title>Firefox biedt tot 31 januari onbeperkt dataverkeer via ingebouwde vpn</title>
+      <description>Firefox biedt tot 31 januari volgend jaar onbeperkt dataverkeer via de gratis ingebouwde vpn, zo heeft Mozilla vandaag ...</description>
+      <link>https://www.security.nl/posting/961082/Firefox+biedt+tot+31+januari+onbeperkt+dataverkeer+via+ingebouwde+vpn?channel=rss</link>
+      <guid>https://www.security.nl/posting/961082/Firefox+biedt+tot+31+januari+onbeperkt+dataverkeer+via+ingebouwde+vpn</guid>
+      <pubDate>Tue, 10 Nov 2026 15:20:49 +0100</pubDate>
+    </item>
+    <item>
+      <title>Kabinet wil biometrische scan bij uitgifte identiteitsbewijs wettelijk vastleggen</title>
+      <description>Het kabinet wil het gebruik van een biometrische scan door gemeenten bij de uitgifte van identiteitsbewijzen wettelijk ...</description>
+      <link>https://www.security.nl/posting/961075/Kabinet+wil+biometrische+scan+bij+uitgifte+identiteitsbewijs+wettelijk+vastleggen?channel=rss</link>
+      <guid>https://www.security.nl/posting/961075/Kabinet+wil+biometrische+scan+bij+uitgifte+identiteitsbewijs+wettelijk+vastleggen</guid>
+      <pubDate>Tue, 10 Nov 2026 14:37:13 +0100</pubDate>
+    </item>
+    <item>
+      <title>N-able haalt clouddienst wegens 'Able2Shell' offline, eerste aanvallen gemeld</title>
+      <description>Softwarebedrijf N-able heeft de cloudversie van N-central offline gehaald en adviseert klanten dit ook met hun on-premises ...</description>
+      <link>https://www.security.nl/posting/961066/N-able+haalt+clouddienst+wegens+%27Able2Shell%27+offline%2C+eerste+aanvallen+gemeld?channel=rss</link>
+      <guid>https://www.security.nl/posting/961066/N-able+haalt+clouddienst+wegens+%27Able2Shell%27+offline%2C+eerste+aanvallen+gemeld</guid>
+      <pubDate>Tue, 10 Nov 2026 14:05:00 +0100</pubDate>
+    </item>
+  </channel>
+</rss>
