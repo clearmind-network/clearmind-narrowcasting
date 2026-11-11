@@ -62,6 +62,20 @@
       <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
+      <title>'Storing Rijksoverheid.nl en OM.nl door menselijke fout met update'</title>
+      <description>Een storing waardoor de websites van de Rijksoverheid, het Openbaar Ministerie en het Koninklijk Huis een half uur niet ...</description>
+      <link>https://www.security.nl/posting/961234/%27Storing+Rijksoverheid_nl+en+OM_nl+door+menselijke+fout+met+update%27?channel=rss</link>
+      <guid>https://www.security.nl/posting/961234/%27Storing+Rijksoverheid_nl+en+OM_nl+door+menselijke+fout+met+update%27</guid>
+      <pubDate>Wed, 11 Nov 2026 14:09:20 +0100</pubDate>
+    </item>
+    <item>
+      <title>N-able komt met hotfix voor aangevallen kwetsbaarheden in N-central</title>
+      <description>Softwarebedrijf N-able heef een hotfix uitgebracht voor meerdere kritieke kwetsbaarheden in N-central die bij aanvallen zijn ...</description>
+      <link>https://www.security.nl/posting/961231/N-able+komt+met+hotfix+voor+aangevallen+kwetsbaarheden+in+N-central?channel=rss</link>
+      <guid>https://www.security.nl/posting/961231/N-able+komt+met+hotfix+voor+aangevallen+kwetsbaarheden+in+N-central</guid>
+      <pubDate>Wed, 11 Nov 2026 13:52:50 +0100</pubDate>
+    </item>
+    <item>
       <title>Firefox laat gebruikers meer op elkaar lijken om fingerprinting tegen te gaan</title>
       <description>Firefox heeft maatregelen aan de browser doorgevoerd die ervoor moeten zorgen dat gebruikers voor websites meer op elkaar ...</description>
       <link>https://www.security.nl/posting/961195/Firefox+laat+gebruikers+meer+op+elkaar+lijken+om+fingerprinting+tegen+te+gaan?channel=rss</link>
@@ -81,20 +95,6 @@
       <link>https://www.security.nl/posting/793815/Wat+is+een+%E2%80%98hele+goede+reden%E2%80%99+om+een+sollicitant+w%C3%A9l+op+te+zoeken+op+sociale+media%3F?channel=rss</link>
       <guid>https://www.security.nl/posting/793815/Wat+is+een+%E2%80%98hele+goede+reden%E2%80%99+om+een+sollicitant+w%C3%A9l+op+te+zoeken+op+sociale+media%3F</guid>
       <pubDate>Wed, 11 Nov 2026 11:38:18 +0100</pubDate>
-    </item>
-    <item>
-      <title>AP: Belastingdienst beschermt gegevens Nederlanders niet goed genoeg</title>
-      <description>De Belastingdienst beschermt de gegevens van Nederlanders niet goed genoeg. De fiscus houdt zich op veel belangrijke terreinen ...</description>
-      <link>https://www.security.nl/posting/961181/AP%3A+Belastingdienst+beschermt+gegevens+Nederlanders+niet+goed+genoeg?channel=rss</link>
-      <guid>https://www.security.nl/posting/961181/AP%3A+Belastingdienst+beschermt+gegevens+Nederlanders+niet+goed+genoeg</guid>
-      <pubDate>Wed, 11 Nov 2026 11:28:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Beveiligingslek in Cisco BroadWorks misbruikt bij aanvallen, meldt VS</title>
-      <description>Een kwetsbaarheid in Cisco BroadWorks wordt misbruikt bij aanvallen, zo waarschuwt het Amerikaanse cyberagentschap CISA. ...</description>
-      <link>https://www.security.nl/posting/961174/Beveiligingslek+in+Cisco+BroadWorks+misbruikt+bij+aanvallen%2C+meldt+VS?channel=rss</link>
-      <guid>https://www.security.nl/posting/961174/Beveiligingslek+in+Cisco+BroadWorks+misbruikt+bij+aanvallen%2C+meldt+VS</guid>
-      <pubDate>Wed, 11 Nov 2026 10:27:51 +0100</pubDate>
     </item>
   </channel>
 </rss>
