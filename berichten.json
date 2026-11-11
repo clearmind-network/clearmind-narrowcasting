@@ -1,0 +1,26 @@
+
+{
+  "berichten": [
+    {
+      "id": "kerst-connect-2026",
+      "titel": "Kerst & Connect 2026",
+      "tekst": "Welkom in Luxwoude! Op 9 december vieren we Kerst & Connect. Clear Mind IT - De IT-partner van het Noorden.",
+      "datum": "2026-11-11",
+      "actief": true
+    },
+    {
+      "id": "welkom-clearmind",
+      "titel": "Welkom bij Clear Mind IT",
+      "tekst": "Clear Mind IT - De IT-partner van het Noorden. Samen verbinden we mensen en technologie.",
+      "datum": "2026-11-11",
+      "actief": true
+    },
+    {
+      "id": "kpn-zakelijk",
+      "titel": "Clear Mind IT & KPN Zakelijk",
+      "tekst": "Samen werken we aan betrouwbare en toekomstbestendige ICT- en telecomoplossingen.",
+      "datum": "2026-11-11",
+      "actief": true
+    }
+  ]
+}
