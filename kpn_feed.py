@@ -35,8 +35,10 @@ def fetch_kpn_records():
 
 def clean_description(description):
     description = re.sub(
-        r"<br\s*/?>", " ", description or "",
-        flags=re.IGNORECASE
+        r"<br\s*/?>",
+        " ",
+        description or "",
+        flags=re.IGNORECASE,
     )
     description = re.sub(r"<[^>]+>", "", description)
     return " ".join(html.unescape(description).split())
@@ -48,10 +50,13 @@ def parse_kpn_date(value):
 
     try:
         date = datetime.fromisoformat(str(value).strip())
+
         if date.tzinfo is None:
             date = date.replace(tzinfo=TIMEZONE)
+
         return date.astimezone(TIMEZONE)
-    except ValueError:
+
+    except (ValueError, TypeError):
         return None
 
 
@@ -62,30 +67,33 @@ def filter_kpn_records(records):
     disruptions = []
     maintenance = []
 
+    # Storingen filteren
     for record in records.get("recordsDisruption", []):
         title = record.get("title", "").strip()
 
-        # Voorlopige controle op opgeloste storingen
         if title.upper().startswith("[OPGELOST]"):
             continue
 
         disruptions.append(record)
 
+    # Onderhoud filteren
     for record in records.get("recordsMaintenance", []):
         start = parse_kpn_date(record.get("start_date_raw"))
         end = parse_kpn_date(record.get("end_date_raw"))
 
-        if not start:
+        if start is None:
             continue
 
-        if end and end < start:
+        if end is not None and end < start:
             continue
 
-        # Toekomstig onderhoud binnen 14 dagen
         upcoming = now <= start <= horizon
 
-        # Lopend onderhoud waarvan de eindtijd bekend is
-        ongoing = start <= now and end is not None and end >= now
+        ongoing = (
+            start <= now
+            and end is not None
+            and end >= now
+        )
 
         if upcoming or ongoing:
             maintenance.append(record)
@@ -93,22 +101,78 @@ def filter_kpn_records(records):
     return disruptions, maintenance
 
 
+def check_end_dates(records):
+    print()
+    print("=== KPN EINDTIJD CONTROLE ===")
+
+    sample = records.get("recordsMaintenance", [])[:3]
+
+    if not sample:
+        print("Geen onderhoudsmeldingen gevonden.")
+        return
+
+    for record in sample:
+        print()
+        print("Melding:", record.get("title", "Onbekend"))
+        print("Start:", record.get("start_date", "Onbekend"))
+        print("Einde:", record.get("end_date", "Onbekend"))
+        print(
+            "Eindtijd aanwezig:",
+            bool(record.get("end_date_raw"))
+        )
+        print(
+            "Eindtijd raw:",
+            record.get("end_date_raw")
+        )
+
+
 def main():
     records = fetch_kpn_records()
+
+    # Controleer welke eindtijdvelden KPN levert
+    check_end_dates(records)
+
+    # Filter storingen en onderhoud
     disruptions, maintenance = filter_kpn_records(records)
 
-    print("KPN CSP REPORTER - TESTOVERZICHT")
+    print()
+    print("=== KPN CSP REPORTER - TESTOVERZICHT ===")
     print(f"Niet-opgeloste storingen: {len(disruptions)}")
     print(f"Relevant onderhoud: {len(maintenance)}")
 
+    print()
+    print("=== STORINGEN ===")
+
     for record in disruptions:
-        print(f"[STORING] {record.get('title', 'Onbekend')}")
+        print(
+            "[STORING]",
+            record.get("title", "Onbekend")
+        )
+        print(
+            "Diensten:",
+            record.get("categories", "Onbekend")
+        )
+
+    print()
+    print("=== ONDERHOUD ===")
 
     for record in maintenance:
-        print(f"[ONDERHOUD] {record.get('title', 'Onbekend')}")
-        print(f"  Start: {record.get('start_date', 'Onbekend')}")
-        print(f"  Einde: {record.get('end_date', 'Onbekend')}")
-        print(f"  Diensten: {record.get('categories', 'Onbekend')}")
+        print(
+            "[ONDERHOUD]",
+            record.get("title", "Onbekend")
+        )
+        print(
+            "Start:",
+            record.get("start_date", "Onbekend")
+        )
+        print(
+            "Einde:",
+            record.get("end_date", "Onbekend")
+        )
+        print(
+            "Diensten:",
+            record.get("categories", "Onbekend")
+        )
 
 
 if __name__ == "__main__":
