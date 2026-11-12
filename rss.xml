@@ -62,6 +62,13 @@
       <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
+      <title>Microsoft meldt toename van GSocket op gehackte Linux-webservers</title>
+      <description>Steeds vaker wordt de open source remote access tool GSocket op gehackte Linux-webservers aangetroffen, zo stelt Microsoft op ...</description>
+      <link>https://www.security.nl/posting/961403/Microsoft+meldt+toename+van+GSocket+op+gehackte+Linux-webservers?channel=rss</link>
+      <guid>https://www.security.nl/posting/961403/Microsoft+meldt+toename+van+GSocket+op+gehackte+Linux-webservers</guid>
+      <pubDate>Thu, 12 Nov 2026 13:28:33 +0100</pubDate>
+    </item>
+    <item>
       <title>Identificatie-app itsme gaat in België gezichtsherkenning toepassen</title>
       <description>Identificatie-app itsme gaat in België gezichtsherkenning toepassen, wat moet voorkomend dat accounts van gebruikers worden ...</description>
       <link>https://www.security.nl/posting/961377/Identificatie-app+itsme+gaat+in+Belgi%C3%AB+gezichtsherkenning+toepassen?channel=rss</link>
@@ -88,13 +95,6 @@
       <link>https://www.security.nl/posting/961360/%27Tientallen+organisaties+gehackt+via+ScreenConnect-aanval%27?channel=rss</link>
       <guid>https://www.security.nl/posting/961360/%27Tientallen+organisaties+gehackt+via+ScreenConnect-aanval%27</guid>
       <pubDate>Thu, 12 Nov 2026 10:40:53 +0100</pubDate>
-    </item>
-    <item>
-      <title>'Danfoss-koelsystemen via nieuwe kwetsbaarheden volledig over te nemen'</title>
-      <description>Koelsystemen van leverancier Danfoss bevatten meerdere kritieke lekken waardoor de systemen op afstand volledig zijn over te ...</description>
-      <link>https://www.security.nl/posting/961277/%27Danfoss-koelsystemen+via+nieuwe+kwetsbaarheden+volledig+over+te+nemen%27?channel=rss</link>
-      <guid>https://www.security.nl/posting/961277/%27Danfoss-koelsystemen+via+nieuwe+kwetsbaarheden+volledig+over+te+nemen%27</guid>
-      <pubDate>Wed, 11 Nov 2026 16:59:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
