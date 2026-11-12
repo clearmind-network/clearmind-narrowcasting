@@ -62,6 +62,27 @@
       <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
+      <title>Politie haalt malware-servers offline, vindt miljoenen gestolen persoonsgegevens</title>
+      <description>Tijdens een internationale actie heeft de Nederlandse politie servers en domeinnamen van de Gootloader- en CastleRAT-malware ...</description>
+      <link>https://www.security.nl/posting/961420/Politie+haalt+malware-servers+offline%2C+vindt+miljoenen+gestolen+persoonsgegevens?channel=rss</link>
+      <guid>https://www.security.nl/posting/961420/Politie+haalt+malware-servers+offline%2C+vindt+miljoenen+gestolen+persoonsgegevens</guid>
+      <pubDate>Thu, 12 Nov 2026 14:50:15 +0100</pubDate>
+    </item>
+    <item>
+      <title>Minister: kwetsbaarheden zoals in PHP gaan we in toekomst nog vaker zien</title>
+      <description>Kwetsbaarheden met een grote impact, zoals de recente PHP2Shell-lekken in PHP, zullen in de toekomst vaker voorkomen, zo stelt ...</description>
+      <link>https://www.security.nl/posting/961416/Minister%3A+kwetsbaarheden+zoals+in+PHP+gaan+we+in+toekomst+nog+vaker+zien?channel=rss</link>
+      <guid>https://www.security.nl/posting/961416/Minister%3A+kwetsbaarheden+zoals+in+PHP+gaan+we+in+toekomst+nog+vaker+zien</guid>
+      <pubDate>Thu, 12 Nov 2026 14:28:58 +0100</pubDate>
+    </item>
+    <item>
+      <title>Google komt met patch voor meerdere kritieke Chrome-lekken</title>
+      <description>Google heeft patches uitgebracht die 83 kwetsbaarheden in de browser verhelpen, waaronder vijf kritieke beveiligingslekken. Via ...</description>
+      <link>https://www.security.nl/posting/961411/Google+komt+met+patch+voor+meerdere+kritieke+Chrome-lekken?channel=rss</link>
+      <guid>https://www.security.nl/posting/961411/Google+komt+met+patch+voor+meerdere+kritieke+Chrome-lekken</guid>
+      <pubDate>Thu, 12 Nov 2026 13:59:55 +0100</pubDate>
+    </item>
+    <item>
       <title>Microsoft meldt toename van GSocket op gehackte Linux-webservers</title>
       <description>Steeds vaker wordt de open source remote access tool GSocket op gehackte Linux-webservers aangetroffen, zo stelt Microsoft op ...</description>
       <link>https://www.security.nl/posting/961403/Microsoft+meldt+toename+van+GSocket+op+gehackte+Linux-webservers?channel=rss</link>
@@ -74,27 +95,6 @@
       <link>https://www.security.nl/posting/961377/Identificatie-app+itsme+gaat+in+Belgi%C3%AB+gezichtsherkenning+toepassen?channel=rss</link>
       <guid>https://www.security.nl/posting/961377/Identificatie-app+itsme+gaat+in+Belgi%C3%AB+gezichtsherkenning+toepassen</guid>
       <pubDate>Thu, 12 Nov 2026 11:53:41 +0100</pubDate>
-    </item>
-    <item>
-      <title>CCB waarschuwt om koelsystemen nooit meer direct aan internet te hangen</title>
-      <description>De Belgische overheidsinstantie CCB waarschuwt supermarkten en andere bedrijven om hun koelsystemen nooit meer direct aan het ...</description>
-      <link>https://www.security.nl/posting/961369/CCB+waarschuwt+om+koelsystemen+nooit+meer+direct+aan+internet+te+hangen?channel=rss</link>
-      <guid>https://www.security.nl/posting/961369/CCB+waarschuwt+om+koelsystemen+nooit+meer+direct+aan+internet+te+hangen</guid>
-      <pubDate>Thu, 12 Nov 2026 11:17:15 +0100</pubDate>
-    </item>
-    <item>
-      <title>Staatssecretaris: Belastingdienst moet AVG-naleving sneller op orde krijgen</title>
-      <description>De Belastingdienst moet de naleving van de AVG sneller op orde krijgen, zo stelt staatssecretaris Eerenberg van Financiën in ...</description>
-      <link>https://www.security.nl/posting/961364/Staatssecretaris%3A+Belastingdienst+moet+AVG-naleving+sneller+op+orde+krijgen?channel=rss</link>
-      <guid>https://www.security.nl/posting/961364/Staatssecretaris%3A+Belastingdienst+moet+AVG-naleving+sneller+op+orde+krijgen</guid>
-      <pubDate>Thu, 12 Nov 2026 10:55:09 +0100</pubDate>
-    </item>
-    <item>
-      <title>'Tientallen organisaties gehackt via ScreenConnect-aanval'</title>
-      <description>Honderden systemen van tientallen organisaties zijn bij een aanval die gebruikmaakte van ScreenConnect gehackt, zo stelt ...</description>
-      <link>https://www.security.nl/posting/961360/%27Tientallen+organisaties+gehackt+via+ScreenConnect-aanval%27?channel=rss</link>
-      <guid>https://www.security.nl/posting/961360/%27Tientallen+organisaties+gehackt+via+ScreenConnect-aanval%27</guid>
-      <pubDate>Thu, 12 Nov 2026 10:40:53 +0100</pubDate>
     </item>
   </channel>
 </rss>
