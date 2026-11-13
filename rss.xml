@@ -62,6 +62,27 @@
       <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
+      <title>Citrix waarschuwt voor meerdere kritieke NetScaler-lekken</title>
+      <description>Citrix waarschuwt voor meerdere kritieke beveiligingslekken in NetScaler ADC en NetScaler Gateway en heeft updates uitgebracht ...</description>
+      <link>https://www.security.nl/posting/961516/Citrix+waarschuwt+voor+meerdere+kritieke+NetScaler-lekken?channel=rss</link>
+      <guid>https://www.security.nl/posting/961516/Citrix+waarschuwt+voor+meerdere+kritieke+NetScaler-lekken</guid>
+      <pubDate>Fri, 13 Nov 2026 11:12:53 +0100</pubDate>
+    </item>
+    <item>
+      <title>Politie vond 893.000 unieke wachtwoorden van slachtoffers CastleRAT-malware</title>
+      <description>Bij een internationale operatie tegen de CastleRAT-malware, waar ook de Nederlandse politie en het Openbaar Ministerie aan ...</description>
+      <link>https://www.security.nl/posting/961514/Politie+vond+893_000+unieke+wachtwoorden+van+slachtoffers+CastleRAT-malware?channel=rss</link>
+      <guid>https://www.security.nl/posting/961514/Politie+vond+893_000+unieke+wachtwoorden+van+slachtoffers+CastleRAT-malware</guid>
+      <pubDate>Fri, 13 Nov 2026 10:56:50 +0100</pubDate>
+    </item>
+    <item>
+      <title>Cisco bevestigt eerste waargenomen misbruik van BroadWorks-lek</title>
+      <description>Cisco heeft het eerste waargenomen misbruik van een kwetsbaarheid in BroadWorks bevestigd. Op 10 november waarschuwde het ...</description>
+      <link>https://www.security.nl/posting/961507/Cisco+bevestigt+eerste+waargenomen+misbruik+van+BroadWorks-lek?channel=rss</link>
+      <guid>https://www.security.nl/posting/961507/Cisco+bevestigt+eerste+waargenomen+misbruik+van+BroadWorks-lek</guid>
+      <pubDate>Fri, 13 Nov 2026 10:40:18 +0100</pubDate>
+    </item>
+    <item>
       <title>FBI: stiekem gemaakte webcambeelden it'ers gebruikt voor cryptodiefstal</title>
       <description>Aanvallers hebben stiekem gemaakte webcambeelden van meer dan negenhonderd it'ers gebruikt voor een grote cryptodiefstal, ...</description>
       <link>https://www.security.nl/posting/961494/FBI%3A+stiekem+gemaakte+webcambeelden+it%27ers+gebruikt+voor+cryptodiefstal?channel=rss</link>
@@ -74,27 +95,6 @@
       <link>https://www.security.nl/posting/961491/%27Wereldwijde+storing+Microsoft+kost+bedrijven+miljarden+euro%27s%27?channel=rss</link>
       <guid>https://www.security.nl/posting/961491/%27Wereldwijde+storing+Microsoft+kost+bedrijven+miljarden+euro%27s%27</guid>
       <pubDate>Fri, 13 Nov 2026 09:32:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>AI-marktplaats Apify meldt inbraak op interne systemen door gestolen login</title>
-      <description>Aanvallers zijn erin geslaagd om met behulp van gestolen inloggegevens op interne systemen van AI-marktplaats Apify in te ...</description>
-      <link>https://www.security.nl/posting/961447/AI-marktplaats+Apify+meldt+inbraak+op+interne+systemen+door+gestolen+login?channel=rss</link>
-      <guid>https://www.security.nl/posting/961447/AI-marktplaats+Apify+meldt+inbraak+op+interne+systemen+door+gestolen+login</guid>
-      <pubDate>Thu, 12 Nov 2026 17:06:45 +0100</pubDate>
-    </item>
-    <item>
-      <title>Verzekeraars zien gebruik van AI bij plegen van verzekeringsfraude</title>
-      <description>Fraudeurs hebben vorig jaar verschillende keren gebruikgemaakt van AI voor het plegen van verzekeringsfraude, zo laat het ...</description>
-      <link>https://www.security.nl/posting/961442/Verzekeraars+zien+gebruik+van+AI+bij+plegen+van+verzekeringsfraude?channel=rss</link>
-      <guid>https://www.security.nl/posting/961442/Verzekeraars+zien+gebruik+van+AI+bij+plegen+van+verzekeringsfraude</guid>
-      <pubDate>Thu, 12 Nov 2026 16:33:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Ivanti Endpoint Manager via kritiek SQL Injection-lek over te nemen</title>
-      <description>Ivanti heeft een beveiligingsupdate uitgebracht voor een kritiek SQL Injection-lek in Endpoint Manager (EPM), waardoor ...</description>
-      <link>https://www.security.nl/posting/961439/Ivanti+Endpoint+Manager+via+kritiek+SQL+Injection-lek+over+te+nemen?channel=rss</link>
-      <guid>https://www.security.nl/posting/961439/Ivanti+Endpoint+Manager+via+kritiek+SQL+Injection-lek+over+te+nemen</guid>
-      <pubDate>Thu, 12 Nov 2026 16:18:28 +0100</pubDate>
     </item>
   </channel>
 </rss>
