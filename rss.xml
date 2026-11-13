@@ -62,6 +62,13 @@
       <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
+      <title>Check Point meldt misbruik van lek dat aanvaller root op gateway maakt</title>
+      <description>Aanvallers maken misbruik van een kwetsbaarheid waardoor ze root op gateways, firewalls en andere producten van Check Point ...</description>
+      <link>https://www.security.nl/posting/961543/Check+Point+meldt+misbruik+van+lek+dat+aanvaller+root+op+gateway+maakt?channel=rss</link>
+      <guid>https://www.security.nl/posting/961543/Check+Point+meldt+misbruik+van+lek+dat+aanvaller+root+op+gateway+maakt</guid>
+      <pubDate>Fri, 13 Nov 2026 12:40:04 +0100</pubDate>
+    </item>
+    <item>
       <title>Minister: digitalisering maatschappij niet te stoppen, koelkast hoeft niet online</title>
       <description>De digitalisering van de maatschappij is volgens minister Van Weel van Justitie en Veiligheid niet meer te stoppen, maar de ...</description>
       <link>https://www.security.nl/posting/961532/Minister%3A+digitalisering+maatschappij+niet+te+stoppen%2C+koelkast+hoeft+niet+online?channel=rss</link>
@@ -88,13 +95,6 @@
       <link>https://www.security.nl/posting/961507/Cisco+bevestigt+eerste+waargenomen+misbruik+van+BroadWorks-lek?channel=rss</link>
       <guid>https://www.security.nl/posting/961507/Cisco+bevestigt+eerste+waargenomen+misbruik+van+BroadWorks-lek</guid>
       <pubDate>Fri, 13 Nov 2026 10:40:18 +0100</pubDate>
-    </item>
-    <item>
-      <title>FBI: stiekem gemaakte webcambeelden it'ers gebruikt voor cryptodiefstal</title>
-      <description>Aanvallers hebben stiekem gemaakte webcambeelden van meer dan negenhonderd it'ers gebruikt voor een grote cryptodiefstal, ...</description>
-      <link>https://www.security.nl/posting/961494/FBI%3A+stiekem+gemaakte+webcambeelden+it%27ers+gebruikt+voor+cryptodiefstal?channel=rss</link>
-      <guid>https://www.security.nl/posting/961494/FBI%3A+stiekem+gemaakte+webcambeelden+it%27ers+gebruikt+voor+cryptodiefstal</guid>
-      <pubDate>Fri, 13 Nov 2026 10:10:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
