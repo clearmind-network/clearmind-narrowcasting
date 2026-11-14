@@ -62,6 +62,20 @@
       <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
+      <title>Google geeft softwareleveranciers minder tijd voor patchen gemelde lekken</title>
+      <description>Google gaat softwareleveranciers minder tijd geven voor het oplossen van de kwetsbaarheden die het techbedrijf rapporteert. ...</description>
+      <link>https://www.security.nl/posting/961655/Google+geeft+softwareleveranciers+minder+tijd+voor+patchen+gemelde+lekken?channel=rss</link>
+      <guid>https://www.security.nl/posting/961655/Google+geeft+softwareleveranciers+minder+tijd+voor+patchen+gemelde+lekken</guid>
+      <pubDate>Sat, 14 Nov 2026 09:36:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Beveiligingslek in IRC-server UnrealIRCd misbruikt bij aanvallen</title>
+      <description>Aanvallers maken misbruik van een kwetsbaarheid in open source IRC-server UnrealIRCd, zo melden de ontwikkelaars en het ...</description>
+      <link>https://www.security.nl/posting/961650/Beveiligingslek+in+IRC-server+UnrealIRCd+misbruikt+bij+aanvallen?channel=rss</link>
+      <guid>https://www.security.nl/posting/961650/Beveiligingslek+in+IRC-server+UnrealIRCd+misbruikt+bij+aanvallen</guid>
+      <pubDate>Sat, 14 Nov 2026 09:21:20 +0100</pubDate>
+    </item>
+    <item>
       <title>AIVD-advies over spionage niet toegepast op dienstauto ministers</title>
       <description>Advies van de AIVD over spionage via slimme voertuigen wordt niet toegepast op de dienstauto's van ministers en andere ...</description>
       <link>https://www.security.nl/posting/961595/AIVD-advies+over+spionage+niet+toegepast+op+dienstauto+ministers?channel=rss</link>
@@ -81,20 +95,6 @@
       <link>https://www.security.nl/posting/961566/Chipgigant+TSMC+meldt+diefstal+van+personeelsgegevens?channel=rss</link>
       <guid>https://www.security.nl/posting/961566/Chipgigant+TSMC+meldt+diefstal+van+personeelsgegevens</guid>
       <pubDate>Fri, 13 Nov 2026 14:03:52 +0100</pubDate>
-    </item>
-    <item>
-      <title>Danfoss dicht beveiligingslekken waardoor koelsystemen zijn uit te schakelen</title>
-      <description>De Deense leverancier van koelsystemen Danfoss heeft een beveiligingsupdate uitgebracht voor meerdere kwetsbaarheden in de ...</description>
-      <link>https://www.security.nl/posting/961546/Danfoss+dicht+beveiligingslekken+waardoor+koelsystemen+zijn+uit+te+schakelen?channel=rss</link>
-      <guid>https://www.security.nl/posting/961546/Danfoss+dicht+beveiligingslekken+waardoor+koelsystemen+zijn+uit+te+schakelen</guid>
-      <pubDate>Fri, 13 Nov 2026 13:32:26 +0100</pubDate>
-    </item>
-    <item>
-      <title>Check Point meldt misbruik van lek dat aanvaller root op gateway maakt</title>
-      <description>Aanvallers maken misbruik van een kwetsbaarheid waardoor ze root op gateways, firewalls en andere producten van Check Point ...</description>
-      <link>https://www.security.nl/posting/961543/Check+Point+meldt+misbruik+van+lek+dat+aanvaller+root+op+gateway+maakt?channel=rss</link>
-      <guid>https://www.security.nl/posting/961543/Check+Point+meldt+misbruik+van+lek+dat+aanvaller+root+op+gateway+maakt</guid>
-      <pubDate>Fri, 13 Nov 2026 12:40:04 +0100</pubDate>
     </item>
   </channel>
 </rss>
