@@ -62,6 +62,20 @@
       <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
+      <title>Minister houdt zich op vlakte over server die op verzoek van VS in beslag werd genomen</title>
+      <description>Minister Van Weel van Justitie en Veiligheid houdt zich op de vlakte over een server die op verzoek van de Amerikaanse ...</description>
+      <link>https://www.security.nl/posting/961965/Minister+houdt+zich+op+vlakte+over+server+die+op+verzoek+van+VS+in+beslag+werd+genomen?channel=rss</link>
+      <guid>https://www.security.nl/posting/961965/Minister+houdt+zich+op+vlakte+over+server+die+op+verzoek+van+VS+in+beslag+werd+genomen</guid>
+      <pubDate>Mon, 16 Nov 2026 17:18:55 +0100</pubDate>
+    </item>
+    <item>
+      <title>Cybersecuritybedrijf Barracuda getroffen door inbraak op cloudomgeving</title>
+      <description>Aanvallers zijn erin geslaagd om in te breken op de interne cloudomgeving van cybersecuritybedrijf Barracuda. De aanvallers ...</description>
+      <link>https://www.security.nl/posting/961962/Cybersecuritybedrijf+Barracuda+getroffen+door+inbraak+op+cloudomgeving?channel=rss</link>
+      <guid>https://www.security.nl/posting/961962/Cybersecuritybedrijf+Barracuda+getroffen+door+inbraak+op+cloudomgeving</guid>
+      <pubDate>Mon, 16 Nov 2026 16:42:01 +0100</pubDate>
+    </item>
+    <item>
       <title>Kamerleden willen dat volgend kabinet ministerie van Digitale Zaken opzet</title>
       <description>Verschillende leden van de Tweede Kamer willen dat het volgende kabinet een ministerie van Digitale Zaken opzet en in ieder ...</description>
       <link>https://www.security.nl/posting/961920/Kamerleden+willen+dat+volgend+kabinet+ministerie+van+Digitale+Zaken+opzet?channel=rss</link>
@@ -81,20 +95,6 @@
       <link>https://www.security.nl/posting/961883/EFF%3A+techbedrijven+proberen+hele+begrip+van+privacy+te+veranderen?channel=rss</link>
       <guid>https://www.security.nl/posting/961883/EFF%3A+techbedrijven+proberen+hele+begrip+van+privacy+te+veranderen</guid>
       <pubDate>Mon, 16 Nov 2026 12:20:36 +0100</pubDate>
-    </item>
-    <item>
-      <title>Tor-netwerk doelwit van grote ddos-aanval, update moet uitkomst bieden</title>
-      <description>Het Tor-netwerk is al een aantal weken het doelwit van een grote ddos-aanval, waardoor allerlei servers overbelast raken. De ...</description>
-      <link>https://www.security.nl/posting/961872/Tor-netwerk+doelwit+van+grote+ddos-aanval%2C+update+moet+uitkomst+bieden?channel=rss</link>
-      <guid>https://www.security.nl/posting/961872/Tor-netwerk+doelwit+van+grote+ddos-aanval%2C+update+moet+uitkomst+bieden</guid>
-      <pubDate>Mon, 16 Nov 2026 11:51:17 +0100</pubDate>
-    </item>
-    <item>
-      <title>Lek in adblocker uBlock Origin maakt cross site scripting-aanval mogelijk</title>
-      <description>Een kwetsbaarheid in de populaire adblocker uBlock Origin maakt cross site scripting (XSS) mogelijk, waardoor er gevoelige ...</description>
-      <link>https://www.security.nl/posting/961862/Lek+in+adblocker+uBlock+Origin+maakt+cross+site+scripting-aanval+mogelijk?channel=rss</link>
-      <guid>https://www.security.nl/posting/961862/Lek+in+adblocker+uBlock+Origin+maakt+cross+site+scripting-aanval+mogelijk</guid>
-      <pubDate>Mon, 16 Nov 2026 11:31:31 +0100</pubDate>
     </item>
   </channel>
 </rss>
