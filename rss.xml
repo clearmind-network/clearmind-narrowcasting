@@ -62,6 +62,13 @@
       <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
+      <title>Zyxel dicht beveiligingslekken in glasvezelmodems en wifi-extenders</title>
+      <description>Zyxel heeft firmware-updates uitgebracht voor beveiligingslekken in dsl- en glasvezelmodems, alsmede wifi-extenders. Het gaat ...</description>
+      <link>https://www.security.nl/posting/962067/Zyxel+dicht+beveiligingslekken+in+glasvezelmodems+en+wifi-extenders?channel=rss</link>
+      <guid>https://www.security.nl/posting/962067/Zyxel+dicht+beveiligingslekken+in+glasvezelmodems+en+wifi-extenders</guid>
+      <pubDate>Tue, 17 Nov 2026 15:21:21 +0100</pubDate>
+    </item>
+    <item>
       <title>Britse minister: 99 procent ambtenaren communiceert via Microsoft</title>
       <description>99 procent van de Britse ambtenaren maakt voor de communicatie gebruik van Microsoft, zo heeft de Britse minister 
 Ian Murray ...</description>
@@ -89,13 +96,6 @@ Ian Murray ...</description>
       <link>https://www.security.nl/posting/962028/Apple+voorziet+macOS+van+extra+opties+voor+schijf-+en+datatoegang?channel=rss</link>
       <guid>https://www.security.nl/posting/962028/Apple+voorziet+macOS+van+extra+opties+voor+schijf-+en+datatoegang</guid>
       <pubDate>Tue, 17 Nov 2026 11:30:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Windows 11 krijgt optie voor op afstand vergrendelen van gestolen systemen</title>
-      <description>Windows 11 krijgt een optie waarmee organisaties gestolen of verloren systemen op afstand kunnen vergrendelen. De feature heet ...</description>
-      <link>https://www.security.nl/posting/962025/Windows+11+krijgt+optie+voor+op+afstand+vergrendelen+van+gestolen+systemen?channel=rss</link>
-      <guid>https://www.security.nl/posting/962025/Windows+11+krijgt+optie+voor+op+afstand+vergrendelen+van+gestolen+systemen</guid>
-      <pubDate>Tue, 17 Nov 2026 11:08:27 +0100</pubDate>
     </item>
   </channel>
 </rss>
