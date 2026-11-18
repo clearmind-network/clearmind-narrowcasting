@@ -62,6 +62,20 @@
       <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
+      <title>Hackermagazine Phrack 73 online: 'Menselijke kant van hacken cruciaal'</title>
+      <description>Na ruim een jaar is er een nieuwe editie van hackermagazine Phrack verschenen, die allerlei nieuw beveiligingsonderzoek bevat ...</description>
+      <link>https://www.security.nl/posting/962204/Hackermagazine+Phrack+73+online%3A+%27Menselijke+kant+van+hacken+cruciaal%27?channel=rss</link>
+      <guid>https://www.security.nl/posting/962204/Hackermagazine+Phrack+73+online%3A+%27Menselijke+kant+van+hacken+cruciaal%27</guid>
+      <pubDate>Wed, 18 Nov 2026 15:07:11 +0100</pubDate>
+    </item>
+    <item>
+      <title>Google dicht opnieuw tweehonderd kwetsbaarheden in Chrome</title>
+      <description>Google heeft opnieuw tweehonderd kwetsbaarheden in Chrome verholpen, waaronder meerdere problemen die een aanvaller malware op ...</description>
+      <link>https://www.security.nl/posting/962200/Google+dicht+opnieuw+tweehonderd+kwetsbaarheden+in+Chrome?channel=rss</link>
+      <guid>https://www.security.nl/posting/962200/Google+dicht+opnieuw+tweehonderd+kwetsbaarheden+in+Chrome</guid>
+      <pubDate>Wed, 18 Nov 2026 14:25:37 +0100</pubDate>
+    </item>
+    <item>
       <title>Verdachte achter Scattered Spider-aanvallen krijgt 6 jaar cel in VS</title>
       <description>Een 24-jarige Schotse man is in de Verenigde Staten veroordeeld tot een gevangenisstraf van zes jaar wegens het uitvoeren van ...</description>
       <link>https://www.security.nl/posting/962178/Verdachte+achter+Scattered+Spider-aanvallen+krijgt+6+jaar+cel+in+VS?channel=rss</link>
@@ -81,20 +95,6 @@
       <link>https://www.security.nl/posting/962172/Apache+meldt+actief+misbruik+van+kritiek+beveiligingslek+in+Apache+Roller?channel=rss</link>
       <guid>https://www.security.nl/posting/962172/Apache+meldt+actief+misbruik+van+kritiek+beveiligingslek+in+Apache+Roller</guid>
       <pubDate>Wed, 18 Nov 2026 12:06:01 +0100</pubDate>
-    </item>
-    <item>
-      <title>Mag een gesprek opgenomen 'voor trainingsdoeleinden' ook voor het trainen van AI  worden gebruikt?</title>
-      <description>Juridische vraag: Als ik met een bedrijf of instantie bel, krijg ik regelmatig een bandje met de mededeling 'dit gesprek kan ...</description>
-      <link>https://www.security.nl/posting/962165/Mag+een+gesprek+opgenomen+%27voor+trainingsdoeleinden%27+ook+voor+het+trainen+van+AI++worden+gebruikt%3F?channel=rss</link>
-      <guid>https://www.security.nl/posting/962165/Mag+een+gesprek+opgenomen+%27voor+trainingsdoeleinden%27+ook+voor+het+trainen+van+AI++worden+gebruikt%3F</guid>
-      <pubDate>Wed, 18 Nov 2026 11:45:47 +0100</pubDate>
-    </item>
-    <item>
-      <title>Onderzoeker: zomaar third-party code op je website draaien is slecht idee</title>
-      <description>Het zomaar draaien van third-party code op je website is een slecht idee en iets dat bedrijven beter moeten beseffen, zo stelt ...</description>
-      <link>https://www.security.nl/posting/962151/Onderzoeker%3A+zomaar+third-party+code+op+je+website+draaien+is+slecht+idee?channel=rss</link>
-      <guid>https://www.security.nl/posting/962151/Onderzoeker%3A+zomaar+third-party+code+op+je+website+draaien+is+slecht+idee</guid>
-      <pubDate>Wed, 18 Nov 2026 11:33:09 +0100</pubDate>
     </item>
   </channel>
 </rss>
