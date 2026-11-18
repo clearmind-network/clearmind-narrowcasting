@@ -62,6 +62,13 @@
       <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
+      <title>Noorse energiegigant Equinor getroffen door cyberaanval</title>
+      <description>De Noorse energiegigant Equinor is getroffen door een cyberaanval, wat gevolgen heeft voor het gebruik van it-applicaties en ...</description>
+      <link>https://www.security.nl/posting/962221/Noorse+energiegigant+Equinor+getroffen+door+cyberaanval?channel=rss</link>
+      <guid>https://www.security.nl/posting/962221/Noorse+energiegigant+Equinor+getroffen+door+cyberaanval</guid>
+      <pubDate>Wed, 18 Nov 2026 16:55:08 +0100</pubDate>
+    </item>
+    <item>
       <title>Hackermagazine Phrack 73 online: 'Menselijke kant van hacken cruciaal'</title>
       <description>Na ruim een jaar is er een nieuwe editie van hackermagazine Phrack verschenen, die allerlei nieuw beveiligingsonderzoek bevat ...</description>
       <link>https://www.security.nl/posting/962204/Hackermagazine+Phrack+73+online%3A+%27Menselijke+kant+van+hacken+cruciaal%27?channel=rss</link>
@@ -88,13 +95,6 @@
       <link>https://www.security.nl/posting/962173/Japanse+supercomputer+via+statuspagina+gehackt%2C+meldt+onderzoekscentrum?channel=rss</link>
       <guid>https://www.security.nl/posting/962173/Japanse+supercomputer+via+statuspagina+gehackt%2C+meldt+onderzoekscentrum</guid>
       <pubDate>Wed, 18 Nov 2026 12:36:23 +0100</pubDate>
-    </item>
-    <item>
-      <title>Apache meldt actief misbruik van kritiek beveiligingslek in Apache Roller</title>
-      <description>Aanvallers maken actief misbruik van een kritieke kwetsbaarheid in Apache Roller, zo meldt de Apache Foundation. Gebruikers ...</description>
-      <link>https://www.security.nl/posting/962172/Apache+meldt+actief+misbruik+van+kritiek+beveiligingslek+in+Apache+Roller?channel=rss</link>
-      <guid>https://www.security.nl/posting/962172/Apache+meldt+actief+misbruik+van+kritiek+beveiligingslek+in+Apache+Roller</guid>
-      <pubDate>Wed, 18 Nov 2026 12:06:01 +0100</pubDate>
     </item>
   </channel>
 </rss>
