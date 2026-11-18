@@ -62,6 +62,20 @@
       <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
+      <title>Japanse supercomputer via statuspagina gehackt, meldt onderzoekscentrum</title>
+      <description>Aanvallers hebben de Japanse supercomputer Fugaku via de publiek toegankelijke statuspagina gehackt, zo meldt het Japanse ...</description>
+      <link>https://www.security.nl/posting/962173/Japanse+supercomputer+via+statuspagina+gehackt%2C+meldt+onderzoekscentrum?channel=rss</link>
+      <guid>https://www.security.nl/posting/962173/Japanse+supercomputer+via+statuspagina+gehackt%2C+meldt+onderzoekscentrum</guid>
+      <pubDate>Wed, 18 Nov 2026 12:36:23 +0100</pubDate>
+    </item>
+    <item>
+      <title>Apache meldt actief misbruik van kritiek beveiligingslek in Apache Roller</title>
+      <description>Aanvallers maken actief misbruik van een kritieke kwetsbaarheid in Apache Roller, zo meldt de Apache Foundation. Gebruikers ...</description>
+      <link>https://www.security.nl/posting/962172/Apache+meldt+actief+misbruik+van+kritiek+beveiligingslek+in+Apache+Roller?channel=rss</link>
+      <guid>https://www.security.nl/posting/962172/Apache+meldt+actief+misbruik+van+kritiek+beveiligingslek+in+Apache+Roller</guid>
+      <pubDate>Wed, 18 Nov 2026 12:06:01 +0100</pubDate>
+    </item>
+    <item>
       <title>Mag een gesprek opgenomen 'voor trainingsdoeleinden' ook voor het trainen van AI  worden gebruikt?</title>
       <description>Juridische vraag: Als ik met een bedrijf of instantie bel, krijg ik regelmatig een bandje met de mededeling 'dit gesprek kan ...</description>
       <link>https://www.security.nl/posting/962165/Mag+een+gesprek+opgenomen+%27voor+trainingsdoeleinden%27+ook+voor+het+trainen+van+AI++worden+gebruikt%3F?channel=rss</link>
@@ -81,20 +95,6 @@
       <link>https://www.security.nl/posting/962148/Fraudehelpdesk%3A+toename+meldingen+over+gekaapte+WhatsApp-accounts?channel=rss</link>
       <guid>https://www.security.nl/posting/962148/Fraudehelpdesk%3A+toename+meldingen+over+gekaapte+WhatsApp-accounts</guid>
       <pubDate>Wed, 18 Nov 2026 10:34:13 +0100</pubDate>
-    </item>
-    <item>
-      <title>ACM komt met AI-prompt om betrouwbaarheid webshops te controleren</title>
-      <description>De Autoriteit Consument &amp; Markt (ACM) heeft een AI-prompt gemaakt die mensen moet helpen om de betrouwbaarheid van webshops te ...</description>
-      <link>https://www.security.nl/posting/962142/ACM+komt+met+AI-prompt+om+betrouwbaarheid+webshops+te+controleren?channel=rss</link>
-      <guid>https://www.security.nl/posting/962142/ACM+komt+met+AI-prompt+om+betrouwbaarheid+webshops+te+controleren</guid>
-      <pubDate>Wed, 18 Nov 2026 10:16:06 +0100</pubDate>
-    </item>
-    <item>
-      <title>Java4Shell-lek laat aanvallers code in Java-omgevingen uitvoeren</title>
-      <description>Een kritiek beveiligingslek in OpenJDK Java, met de naam Java4Shell, maakt het mogelijk voor ongeauthenticeerde aanvallers om ...</description>
-      <link>https://www.security.nl/posting/962141/Java4Shell-lek+laat+aanvallers+code+in+Java-omgevingen+uitvoeren?channel=rss</link>
-      <guid>https://www.security.nl/posting/962141/Java4Shell-lek+laat+aanvallers+code+in+Java-omgevingen+uitvoeren</guid>
-      <pubDate>Wed, 18 Nov 2026 09:57:35 +0100</pubDate>
     </item>
   </channel>
 </rss>
