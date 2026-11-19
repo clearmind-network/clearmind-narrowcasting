@@ -62,39 +62,39 @@
       <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
+      <title>Drupal waarschuwt voor kritiek lek dat aanvaller websites laat overnemen</title>
+      <description>De makers van het contentmanagementsysteem (CMS) Drupal waarschuwen voor een kritieke kwetsbaarheid waardoor ongeauthenticeerde ...</description>
+      <link>https://www.security.nl/posting/962342/Drupal+waarschuwt+voor+kritiek+lek+dat+aanvaller+websites+laat+overnemen?channel=rss</link>
+      <guid>https://www.security.nl/posting/962342/Drupal+waarschuwt+voor+kritiek+lek+dat+aanvaller+websites+laat+overnemen</guid>
+      <pubDate>Thu, 19 Nov 2026 15:11:03 +0100</pubDate>
+    </item>
+    <item>
+      <title>Arriva onderzoekt mogelijk datalek met deelfietsapp Xbike</title>
+      <description>Arriva onderzoekt een mogelijk datalek met deelfietsapp Xbike en heeft de app uit voorzorg offline laten halen. Xbike heeft ...</description>
+      <link>https://www.security.nl/posting/962337/Arriva+onderzoekt+mogelijk+datalek+met+deelfietsapp+Xbike?channel=rss</link>
+      <guid>https://www.security.nl/posting/962337/Arriva+onderzoekt+mogelijk+datalek+met+deelfietsapp+Xbike</guid>
+      <pubDate>Thu, 19 Nov 2026 14:52:22 +0100</pubDate>
+    </item>
+    <item>
+      <title>HR-systemen Europe Commissie getroffen door cyberaanval</title>
+      <description>Interne HR-systemen van de Europese Commissie zijn getroffen door een cyberaanval. Er wordt nog onderzocht of er gevoelige ...</description>
+      <link>https://www.security.nl/posting/962333/HR-systemen+Europe+Commissie+getroffen+door+cyberaanval?channel=rss</link>
+      <guid>https://www.security.nl/posting/962333/HR-systemen+Europe+Commissie+getroffen+door+cyberaanval</guid>
+      <pubDate>Thu, 19 Nov 2026 14:27:53 +0100</pubDate>
+    </item>
+    <item>
+      <title>Microsoft test Lockdown Mode in Edge: 'Kan browser-aanvallen voorkomen'</title>
+      <description>Microsoft test een nieuwe beveiligingsmaatregel in Edge die gebruikers tegen browser-aanvallen zou moeten beschermen. De ...</description>
+      <link>https://www.security.nl/posting/962325/Microsoft+test+Lockdown+Mode+in+Edge%3A+%27Kan+browser-aanvallen+voorkomen%27?channel=rss</link>
+      <guid>https://www.security.nl/posting/962325/Microsoft+test+Lockdown+Mode+in+Edge%3A+%27Kan+browser-aanvallen+voorkomen%27</guid>
+      <pubDate>Thu, 19 Nov 2026 13:57:00 +0100</pubDate>
+    </item>
+    <item>
       <title>Synology waarschuwt voor lek dat aanvaller toegang geeft tot NAS-systeem</title>
       <description>Synology waarschuwt voor een kritieke kwetsbaarheid waardoor een remote aanvaller toegang tot de bestanden op NAS-systemen kan ...</description>
       <link>https://www.security.nl/posting/962310/Synology+waarschuwt+voor+lek+dat+aanvaller+toegang+geeft+tot+NAS-systeem?channel=rss</link>
       <guid>https://www.security.nl/posting/962310/Synology+waarschuwt+voor+lek+dat+aanvaller+toegang+geeft+tot+NAS-systeem</guid>
       <pubDate>Thu, 19 Nov 2026 13:26:07 +0100</pubDate>
-    </item>
-    <item>
-      <title>Microsoft lanceert nieuwe veiligheidscheck voor Windows 11-computers</title>
-      <description>Microsoft heeft een nieuwe veiligheidscheck voor Windows 11-computers gelanceerd, die moet aangeven of het systeem aan ...</description>
-      <link>https://www.security.nl/posting/962293/Microsoft+lanceert+nieuwe+veiligheidscheck+voor+Windows+11-computers?channel=rss</link>
-      <guid>https://www.security.nl/posting/962293/Microsoft+lanceert+nieuwe+veiligheidscheck+voor+Windows+11-computers</guid>
-      <pubDate>Thu, 19 Nov 2026 12:32:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Politie: geweldsincidenten in Nederland te linken aan datalek Revolut</title>
-      <description>Meerdere geweldsincidenten die in Amsterdam en Den Haag plaatsvonden zijn te linken aan het datalek bij Revolut, zo heeft de ...</description>
-      <link>https://www.security.nl/posting/962282/Politie%3A+geweldsincidenten+in+Nederland+te+linken+aan+datalek+Revolut?channel=rss</link>
-      <guid>https://www.security.nl/posting/962282/Politie%3A+geweldsincidenten+in+Nederland+te+linken+aan+datalek+Revolut</guid>
-      <pubDate>Thu, 19 Nov 2026 12:02:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Nvidia doet onderzoek naar incident na claim van ransomwaregroep</title>
-      <description>Chipgigant Nvidia doet onderzoek naar een incident nadat een ransomwaregroep de naam van het bedrijf op de eigen dataleksite ...</description>
-      <link>https://www.security.nl/posting/962275/Nvidia+doet+onderzoek+naar+incident+na+claim+van+ransomwaregroep?channel=rss</link>
-      <guid>https://www.security.nl/posting/962275/Nvidia+doet+onderzoek+naar+incident+na+claim+van+ransomwaregroep</guid>
-      <pubDate>Thu, 19 Nov 2026 10:58:51 +0100</pubDate>
-    </item>
-    <item>
-      <title>Chargemap lekt persoonlijke gegevens en wachtwoordhashes gebruikers</title>
-      <description>Chargemap, een app voor het vinden van laadpalen en laadstations, heeft de persoonlijke informatie van gebruikers gelekt. Het ...</description>
-      <link>https://www.security.nl/posting/962274/Chargemap+lekt+persoonlijke+gegevens+en+wachtwoordhashes+gebruikers?channel=rss</link>
-      <guid>https://www.security.nl/posting/962274/Chargemap+lekt+persoonlijke+gegevens+en+wachtwoordhashes+gebruikers</guid>
-      <pubDate>Thu, 19 Nov 2026 10:43:27 +0100</pubDate>
     </item>
   </channel>
 </rss>
