@@ -62,6 +62,20 @@
       <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
+      <title>Chargemap lekt persoonlijke gegevens en wachtwoordhashes gebruikers</title>
+      <description>Chargemap, een app voor het vinden van laadpalen en laadstations, heeft de persoonlijke informatie van gebruikers gelekt. Het ...</description>
+      <link>https://www.security.nl/posting/962274/Chargemap+lekt+persoonlijke+gegevens+en+wachtwoordhashes+gebruikers?channel=rss</link>
+      <guid>https://www.security.nl/posting/962274/Chargemap+lekt+persoonlijke+gegevens+en+wachtwoordhashes+gebruikers</guid>
+      <pubDate>Thu, 19 Nov 2026 10:43:27 +0100</pubDate>
+    </item>
+    <item>
+      <title>NCSC houdt rekening met grootschalig misbruik van NGINX-lek</title>
+      <description>Het Nationaal Cyber Security Centrum (NCSC) houdt rekening met grootschalig misbruik van een kwetsbaarheid in NGINX waarvoor ...</description>
+      <link>https://www.security.nl/posting/962269/NCSC+houdt+rekening+met+grootschalig+misbruik+van+NGINX-lek?channel=rss</link>
+      <guid>https://www.security.nl/posting/962269/NCSC+houdt+rekening+met+grootschalig+misbruik+van+NGINX-lek</guid>
+      <pubDate>Thu, 19 Nov 2026 09:44:40 +0100</pubDate>
+    </item>
+    <item>
       <title>PHP komt vanmiddag met geplande kritieke beveiligingsupdate</title>
       <description>De PHP Foundation komt vanmiddag met een geplande beveiligingsupdate die meerdere kritieke kwetsbaarheden in de programmeertaal ...</description>
       <link>https://www.security.nl/posting/962266/PHP+komt+vanmiddag+met+geplande+kritieke+beveiligingsupdate?channel=rss</link>
@@ -81,20 +95,6 @@
       <link>https://www.security.nl/posting/962222/5+miljoen+euro+boete+voor+plaintext+opslag+van+wachtwoorden?channel=rss</link>
       <guid>https://www.security.nl/posting/962222/5+miljoen+euro+boete+voor+plaintext+opslag+van+wachtwoorden</guid>
       <pubDate>Wed, 18 Nov 2026 17:24:51 +0100</pubDate>
-    </item>
-    <item>
-      <title>Noorse energiegigant Equinor getroffen door cyberaanval</title>
-      <description>De Noorse energiegigant Equinor is getroffen door een cyberaanval, wat gevolgen heeft voor het gebruik van it-applicaties en ...</description>
-      <link>https://www.security.nl/posting/962221/Noorse+energiegigant+Equinor+getroffen+door+cyberaanval?channel=rss</link>
-      <guid>https://www.security.nl/posting/962221/Noorse+energiegigant+Equinor+getroffen+door+cyberaanval</guid>
-      <pubDate>Wed, 18 Nov 2026 16:55:08 +0100</pubDate>
-    </item>
-    <item>
-      <title>Hackermagazine Phrack 73 online: 'Menselijke kant van hacken cruciaal'</title>
-      <description>Na ruim een jaar is er een nieuwe editie van hackermagazine Phrack verschenen, die allerlei nieuw beveiligingsonderzoek bevat ...</description>
-      <link>https://www.security.nl/posting/962204/Hackermagazine+Phrack+73+online%3A+%27Menselijke+kant+van+hacken+cruciaal%27?channel=rss</link>
-      <guid>https://www.security.nl/posting/962204/Hackermagazine+Phrack+73+online%3A+%27Menselijke+kant+van+hacken+cruciaal%27</guid>
-      <pubDate>Wed, 18 Nov 2026 15:07:11 +0100</pubDate>
     </item>
   </channel>
 </rss>
