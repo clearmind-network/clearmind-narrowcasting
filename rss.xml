@@ -62,18 +62,25 @@
       <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
+      <title>Synology waarschuwt voor lek dat aanvaller toegang geeft tot NAS-systeem</title>
+      <description>Synology waarschuwt voor een kritieke kwetsbaarheid waardoor een remote aanvaller toegang tot de bestanden op NAS-systemen kan ...</description>
+      <link>https://www.security.nl/posting/962310/Synology+waarschuwt+voor+lek+dat+aanvaller+toegang+geeft+tot+NAS-systeem?channel=rss</link>
+      <guid>https://www.security.nl/posting/962310/Synology+waarschuwt+voor+lek+dat+aanvaller+toegang+geeft+tot+NAS-systeem</guid>
+      <pubDate>Thu, 19 Nov 2026 13:26:07 +0100</pubDate>
+    </item>
+    <item>
       <title>Microsoft lanceert nieuwe veiligheidscheck voor Windows 11-computers</title>
       <description>Microsoft heeft een nieuwe veiligheidscheck voor Windows 11-computers gelanceerd, die moet aangeven of het systeem aan ...</description>
       <link>https://www.security.nl/posting/962293/Microsoft+lanceert+nieuwe+veiligheidscheck+voor+Windows+11-computers?channel=rss</link>
       <guid>https://www.security.nl/posting/962293/Microsoft+lanceert+nieuwe+veiligheidscheck+voor+Windows+11-computers</guid>
-      <pubDate>Thu, 19 Nov 2026 12:32:15 +0100</pubDate>
+      <pubDate>Thu, 19 Nov 2026 12:32:00 +0100</pubDate>
     </item>
     <item>
       <title>Politie: geweldsincidenten in Nederland te linken aan datalek Revolut</title>
       <description>Meerdere geweldsincidenten die in Amsterdam en Den Haag plaatsvonden zijn te linken aan het datalek bij Revolut, zo heeft de ...</description>
       <link>https://www.security.nl/posting/962282/Politie%3A+geweldsincidenten+in+Nederland+te+linken+aan+datalek+Revolut?channel=rss</link>
       <guid>https://www.security.nl/posting/962282/Politie%3A+geweldsincidenten+in+Nederland+te+linken+aan+datalek+Revolut</guid>
-      <pubDate>Thu, 19 Nov 2026 12:02:18 +0100</pubDate>
+      <pubDate>Thu, 19 Nov 2026 12:02:00 +0100</pubDate>
     </item>
     <item>
       <title>Nvidia doet onderzoek naar incident na claim van ransomwaregroep</title>
@@ -88,13 +95,6 @@
       <link>https://www.security.nl/posting/962274/Chargemap+lekt+persoonlijke+gegevens+en+wachtwoordhashes+gebruikers?channel=rss</link>
       <guid>https://www.security.nl/posting/962274/Chargemap+lekt+persoonlijke+gegevens+en+wachtwoordhashes+gebruikers</guid>
       <pubDate>Thu, 19 Nov 2026 10:43:27 +0100</pubDate>
-    </item>
-    <item>
-      <title>NCSC houdt rekening met grootschalig misbruik van NGINX-lek</title>
-      <description>Het Nationaal Cyber Security Centrum (NCSC) houdt rekening met grootschalig misbruik van een kwetsbaarheid in NGINX waarvoor ...</description>
-      <link>https://www.security.nl/posting/962269/NCSC+houdt+rekening+met+grootschalig+misbruik+van+NGINX-lek?channel=rss</link>
-      <guid>https://www.security.nl/posting/962269/NCSC+houdt+rekening+met+grootschalig+misbruik+van+NGINX-lek</guid>
-      <pubDate>Thu, 19 Nov 2026 09:44:40 +0100</pubDate>
     </item>
   </channel>
 </rss>
