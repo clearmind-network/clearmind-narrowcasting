@@ -62,6 +62,13 @@
       <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
+      <title>Nvidia doet onderzoek naar incident na claim van ransomwaregroep</title>
+      <description>Chipgigant Nvidia doet onderzoek naar een incident nadat een ransomwaregroep de naam van het bedrijf op de eigen dataleksite ...</description>
+      <link>https://www.security.nl/posting/962275/Nvidia+doet+onderzoek+naar+incident+na+claim+van+ransomwaregroep?channel=rss</link>
+      <guid>https://www.security.nl/posting/962275/Nvidia+doet+onderzoek+naar+incident+na+claim+van+ransomwaregroep</guid>
+      <pubDate>Thu, 19 Nov 2026 10:58:51 +0100</pubDate>
+    </item>
+    <item>
       <title>Chargemap lekt persoonlijke gegevens en wachtwoordhashes gebruikers</title>
       <description>Chargemap, een app voor het vinden van laadpalen en laadstations, heeft de persoonlijke informatie van gebruikers gelekt. Het ...</description>
       <link>https://www.security.nl/posting/962274/Chargemap+lekt+persoonlijke+gegevens+en+wachtwoordhashes+gebruikers?channel=rss</link>
@@ -88,13 +95,6 @@
       <link>https://www.security.nl/posting/962214/AP+waarschuwt+voor+camerabrillen%3A+ernstige+risico%E2%80%99s+voor+gebruikers+en+omstanders?channel=rss</link>
       <guid>https://www.security.nl/posting/962214/AP+waarschuwt+voor+camerabrillen%3A+ernstige+risico%E2%80%99s+voor+gebruikers+en+omstanders</guid>
       <pubDate>Thu, 19 Nov 2026 06:00:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>5 miljoen euro boete voor plaintext opslag van wachtwoorden</title>
-      <description>Een Frans bedrijf heeft wegens de plaintext opslag van wachtwoorden van de Franse privacytoezichthouder CNIL een boete van 5 ...</description>
-      <link>https://www.security.nl/posting/962222/5+miljoen+euro+boete+voor+plaintext+opslag+van+wachtwoorden?channel=rss</link>
-      <guid>https://www.security.nl/posting/962222/5+miljoen+euro+boete+voor+plaintext+opslag+van+wachtwoorden</guid>
-      <pubDate>Wed, 18 Nov 2026 17:24:51 +0100</pubDate>
     </item>
   </channel>
 </rss>
