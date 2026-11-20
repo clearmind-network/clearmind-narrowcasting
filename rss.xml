@@ -62,6 +62,27 @@
       <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
+      <title>Microsoft laat virusscanners nu buiten de Windows-kernel draaien</title>
+      <description>Microsoft biedt antivirusbedrijven de mogelijkheid om hun virusscanner buiten de Windows-kernel te draaien, wat catastrofale ...</description>
+      <link>https://www.security.nl/posting/962480/Microsoft+laat+virusscanners+nu+buiten+de+Windows-kernel+draaien?channel=rss</link>
+      <guid>https://www.security.nl/posting/962480/Microsoft+laat+virusscanners+nu+buiten+de+Windows-kernel+draaien</guid>
+      <pubDate>Fri, 20 Nov 2026 13:35:36 +0100</pubDate>
+    </item>
+    <item>
+      <title>Openbaar Ministerie hackte voor onderzoek bedrijfsnetwerk Tata Steel</title>
+      <description>Het Openbaar Ministerie heeft in het strafrechtelijk onderzoek naar Tata Steel het bedrijfsnetwerk van de onderneming gehackt. ...</description>
+      <link>https://www.security.nl/posting/962468/Openbaar+Ministerie+hackte+voor+onderzoek+bedrijfsnetwerk+Tata+Steel?channel=rss</link>
+      <guid>https://www.security.nl/posting/962468/Openbaar+Ministerie+hackte+voor+onderzoek+bedrijfsnetwerk+Tata+Steel</guid>
+      <pubDate>Fri, 20 Nov 2026 13:05:01 +0100</pubDate>
+    </item>
+    <item>
+      <title>Gegevens duizenden klanten Visa, Mastercard en JPMorgan Chase gestolen</title>
+      <description>Aanvallers zijn erin geslaagd om de gegevens van duizenden klanten van Visa, Mastercard en JPMorgan Chase te stelen en hebben ...</description>
+      <link>https://www.security.nl/posting/962454/Gegevens+duizenden+klanten+Visa%2C+Mastercard+en+JPMorgan+Chase+gestolen?channel=rss</link>
+      <guid>https://www.security.nl/posting/962454/Gegevens+duizenden+klanten+Visa%2C+Mastercard+en+JPMorgan+Chase+gestolen</guid>
+      <pubDate>Fri, 20 Nov 2026 12:48:37 +0100</pubDate>
+    </item>
+    <item>
       <title>Signal gaat chats beschermen tegen AI-agents Apple en Google</title>
       <description>Signal gaat chats van gebruikers beschermen tegen de AI-agents van Apple en Google, maar waarschuwt dat er meer nodig is om de ...</description>
       <link>https://www.security.nl/posting/962436/Signal+gaat+chats+beschermen+tegen+AI-agents+Apple+en+Google?channel=rss</link>
@@ -74,27 +95,6 @@
       <link>https://www.security.nl/posting/962433/VK+voerde+grote+operatie+uit+om+koelsystemen+supermarkten+te+beveiligen?channel=rss</link>
       <guid>https://www.security.nl/posting/962433/VK+voerde+grote+operatie+uit+om+koelsystemen+supermarkten+te+beveiligen</guid>
       <pubDate>Fri, 20 Nov 2026 11:04:22 +0100</pubDate>
-    </item>
-    <item>
-      <title>Google rolt verificatieplicht voor Android-ontwikkelaars wereldwijd uit</title>
-      <description>De verificatieplicht voor Android-ontwikkelaars die Google afgelopen september in Brazilië, Indonesië, Singapore en Thailand ...</description>
-      <link>https://www.security.nl/posting/962424/Google+rolt+verificatieplicht+voor+Android-ontwikkelaars+wereldwijd+uit?channel=rss</link>
-      <guid>https://www.security.nl/posting/962424/Google+rolt+verificatieplicht+voor+Android-ontwikkelaars+wereldwijd+uit</guid>
-      <pubDate>Fri, 20 Nov 2026 10:15:03 +0100</pubDate>
-    </item>
-    <item>
-      <title>VMware vCenter-lek sinds september misbruikt bij aanvallen, patch nu beschikbaar</title>
-      <description>Een kritieke kwetsbaarheid in VMware vCenter is sinds begin september misbruikt bij aanvallen, zo stelt Google. Broadcom heeft ...</description>
-      <link>https://www.security.nl/posting/962414/VMware+vCenter-lek+sinds+september+misbruikt+bij+aanvallen%2C+patch+nu+beschikbaar?channel=rss</link>
-      <guid>https://www.security.nl/posting/962414/VMware+vCenter-lek+sinds+september+misbruikt+bij+aanvallen%2C+patch+nu+beschikbaar</guid>
-      <pubDate>Fri, 20 Nov 2026 09:53:25 +0100</pubDate>
-    </item>
-    <item>
-      <title>Consumentenbond hekelt smartphonedwang banken: 'Bankapps opgedrongen'</title>
-      <description>De Consumentenbond vindt dat banken steeds vaker hun bankapps opdringen aan klanten en wil dat volwaardige smartphonevrije ...</description>
-      <link>https://www.security.nl/posting/962411/Consumentenbond+hekelt+smartphonedwang+banken%3A+%27Bankapps+opgedrongen%27?channel=rss</link>
-      <guid>https://www.security.nl/posting/962411/Consumentenbond+hekelt+smartphonedwang+banken%3A+%27Bankapps+opgedrongen%27</guid>
-      <pubDate>Fri, 20 Nov 2026 09:16:59 +0100</pubDate>
     </item>
   </channel>
 </rss>
