@@ -62,6 +62,27 @@
       <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
+      <title>Google rolt verificatieplicht voor Android-ontwikkelaars wereldwijd uit</title>
+      <description>De verificatieplicht voor Android-ontwikkelaars die Google afgelopen september in Brazilië, Indonesië, Singapore en Thailand ...</description>
+      <link>https://www.security.nl/posting/962424/Google+rolt+verificatieplicht+voor+Android-ontwikkelaars+wereldwijd+uit?channel=rss</link>
+      <guid>https://www.security.nl/posting/962424/Google+rolt+verificatieplicht+voor+Android-ontwikkelaars+wereldwijd+uit</guid>
+      <pubDate>Fri, 20 Nov 2026 10:15:03 +0100</pubDate>
+    </item>
+    <item>
+      <title>VMware vCenter-lek sinds september misbruikt bij aanvallen, patch nu beschikbaar</title>
+      <description>Een kritieke kwetsbaarheid in VMware vCenter is sinds begin september misbruikt bij aanvallen, zo stelt Google. Broadcom heeft ...</description>
+      <link>https://www.security.nl/posting/962414/VMware+vCenter-lek+sinds+september+misbruikt+bij+aanvallen%2C+patch+nu+beschikbaar?channel=rss</link>
+      <guid>https://www.security.nl/posting/962414/VMware+vCenter-lek+sinds+september+misbruikt+bij+aanvallen%2C+patch+nu+beschikbaar</guid>
+      <pubDate>Fri, 20 Nov 2026 09:53:25 +0100</pubDate>
+    </item>
+    <item>
+      <title>Consumentenbond hekelt smartphonedwang banken: 'Bankapps opgedrongen'</title>
+      <description>De Consumentenbond vindt dat banken steeds vaker hun bankapps opdringen aan klanten en wil dat volwaardige smartphonevrije ...</description>
+      <link>https://www.security.nl/posting/962411/Consumentenbond+hekelt+smartphonedwang+banken%3A+%27Bankapps+opgedrongen%27?channel=rss</link>
+      <guid>https://www.security.nl/posting/962411/Consumentenbond+hekelt+smartphonedwang+banken%3A+%27Bankapps+opgedrongen%27</guid>
+      <pubDate>Fri, 20 Nov 2026 09:16:59 +0100</pubDate>
+    </item>
+    <item>
       <title>Dordrecht schond jarenlang privacy inwoners: gegevens illegaal verwerkt</title>
       <description>De gemeente Dordrecht heeft jarenlang de privacy van inwoners geschonden, waarbij gevoelige persoonsgegevens illegaal werden ...</description>
       <link>https://www.security.nl/posting/962368/Dordrecht+schond+jarenlang+privacy+inwoners%3A+gegevens+illegaal+verwerkt?channel=rss</link>
@@ -74,27 +95,6 @@
       <link>https://www.security.nl/posting/962356/AP+publiceert+tekst+voor+verbieden+van+camerabrillen+via+huisregels?channel=rss</link>
       <guid>https://www.security.nl/posting/962356/AP+publiceert+tekst+voor+verbieden+van+camerabrillen+via+huisregels</guid>
       <pubDate>Thu, 19 Nov 2026 16:27:40 +0100</pubDate>
-    </item>
-    <item>
-      <title>Britse overheid moet verzoek om Apple iCloud-backdoor bevestigen</title>
-      <description>De Britse overheid moet bevestigen dat het Apple om een iCloud-backdoor heeft verzocht, zo heeft een Britse rechtbank bepaald ...</description>
-      <link>https://www.security.nl/posting/962351/Britse+overheid+moet+verzoek+om+Apple+iCloud-backdoor+bevestigen?channel=rss</link>
-      <guid>https://www.security.nl/posting/962351/Britse+overheid+moet+verzoek+om+Apple+iCloud-backdoor+bevestigen</guid>
-      <pubDate>Thu, 19 Nov 2026 16:07:46 +0100</pubDate>
-    </item>
-    <item>
-      <title>Drupal waarschuwt voor kritiek lek dat aanvaller websites laat overnemen</title>
-      <description>De makers van het contentmanagementsysteem (CMS) Drupal waarschuwen voor een kritieke kwetsbaarheid waardoor ongeauthenticeerde ...</description>
-      <link>https://www.security.nl/posting/962342/Drupal+waarschuwt+voor+kritiek+lek+dat+aanvaller+websites+laat+overnemen?channel=rss</link>
-      <guid>https://www.security.nl/posting/962342/Drupal+waarschuwt+voor+kritiek+lek+dat+aanvaller+websites+laat+overnemen</guid>
-      <pubDate>Thu, 19 Nov 2026 15:11:03 +0100</pubDate>
-    </item>
-    <item>
-      <title>Arriva onderzoekt mogelijk datalek met deelfietsapp Xbike</title>
-      <description>Arriva onderzoekt een mogelijk datalek met deelfietsapp Xbike en heeft de app uit voorzorg offline laten halen. Xbike heeft ...</description>
-      <link>https://www.security.nl/posting/962337/Arriva+onderzoekt+mogelijk+datalek+met+deelfietsapp+Xbike?channel=rss</link>
-      <guid>https://www.security.nl/posting/962337/Arriva+onderzoekt+mogelijk+datalek+met+deelfietsapp+Xbike</guid>
-      <pubDate>Thu, 19 Nov 2026 14:52:22 +0100</pubDate>
     </item>
   </channel>
 </rss>
