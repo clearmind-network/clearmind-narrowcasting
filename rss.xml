@@ -62,6 +62,20 @@
       <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
+      <title>Microsoft Entra Connect Health getroffen door datalek</title>
+      <description>Microsoft heeft bevestigd dat aanvallers misbruik hebben gemaakt van een kwetsbaarheid in Microsoft Entra Connect Health. ...</description>
+      <link>https://www.security.nl/posting/962719/Microsoft+Entra+Connect+Health+getroffen+door+datalek?channel=rss</link>
+      <guid>https://www.security.nl/posting/962719/Microsoft+Entra+Connect+Health+getroffen+door+datalek</guid>
+      <pubDate>Mon, 23 Nov 2026 11:50:55 +0100</pubDate>
+    </item>
+    <item>
+      <title>'Nederlander vindt zich digitaal vaardig, maar kennis en gedrag blijven achter'</title>
+      <description>Nederlanders vinden zich in grote mate digitaal vaardig, maar hun digitale kennis en online gedrag blijven op belangrijke ...</description>
+      <link>https://www.security.nl/posting/962512/%27Nederlander+vindt+zich+digitaal+vaardig%2C+maar+kennis+en+gedrag+blijven+achter%27?channel=rss</link>
+      <guid>https://www.security.nl/posting/962512/%27Nederlander+vindt+zich+digitaal+vaardig%2C+maar+kennis+en+gedrag+blijven+achter%27</guid>
+      <pubDate>Mon, 23 Nov 2026 11:20:34 +0100</pubDate>
+    </item>
+    <item>
       <title>Bits of Freedom vindt waarschuwing AP over camerabril onvoldoende</title>
       <description>Burgerrechtenbeweging Bits of Freedom vindt de waarschuwing van de Autoriteit Persoonsgegevens (AP) over camerabrillen en de ...</description>
       <link>https://www.security.nl/posting/962509/Bits+of+Freedom+vindt+waarschuwing+AP+over+camerabril+onvoldoende?channel=rss</link>
@@ -81,20 +95,6 @@
       <link>https://www.security.nl/posting/962492/Autoriteit+Persoonsgegevens+geeft+On+That+Ass+boete+van+90_000+euro?channel=rss</link>
       <guid>https://www.security.nl/posting/962492/Autoriteit+Persoonsgegevens+geeft+On+That+Ass+boete+van+90_000+euro</guid>
       <pubDate>Fri, 20 Nov 2026 14:49:01 +0100</pubDate>
-    </item>
-    <item>
-      <title>Microsoft laat virusscanners nu buiten de Windows-kernel draaien</title>
-      <description>Microsoft biedt antivirusbedrijven de mogelijkheid om hun virusscanner buiten de Windows-kernel te draaien, wat catastrofale ...</description>
-      <link>https://www.security.nl/posting/962480/Microsoft+laat+virusscanners+nu+buiten+de+Windows-kernel+draaien?channel=rss</link>
-      <guid>https://www.security.nl/posting/962480/Microsoft+laat+virusscanners+nu+buiten+de+Windows-kernel+draaien</guid>
-      <pubDate>Fri, 20 Nov 2026 13:35:36 +0100</pubDate>
-    </item>
-    <item>
-      <title>Openbaar Ministerie hackte voor onderzoek bedrijfsnetwerk Tata Steel</title>
-      <description>Het Openbaar Ministerie heeft in het strafrechtelijk onderzoek naar Tata Steel het bedrijfsnetwerk van de onderneming gehackt. ...</description>
-      <link>https://www.security.nl/posting/962468/Openbaar+Ministerie+hackte+voor+onderzoek+bedrijfsnetwerk+Tata+Steel?channel=rss</link>
-      <guid>https://www.security.nl/posting/962468/Openbaar+Ministerie+hackte+voor+onderzoek+bedrijfsnetwerk+Tata+Steel</guid>
-      <pubDate>Fri, 20 Nov 2026 13:05:01 +0100</pubDate>
     </item>
   </channel>
 </rss>
