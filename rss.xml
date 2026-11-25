@@ -62,39 +62,39 @@
       <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
+      <title>Experts hekelen biometrische gezichtsscans door bedrijven: 'Dit is illegaal'</title>
+      <description>Verschillende experts zijn kritisch op de biometrische gezichtsscans die bedrijven zoals DHL, YoungCapital en Randstad bij ...</description>
+      <link>https://www.security.nl/posting/963087/Experts+hekelen+biometrische+gezichtsscans+door+bedrijven%3A+%27Dit+is+illegaal%27?channel=rss</link>
+      <guid>https://www.security.nl/posting/963087/Experts+hekelen+biometrische+gezichtsscans+door+bedrijven%3A+%27Dit+is+illegaal%27</guid>
+      <pubDate>Wed, 25 Nov 2026 12:18:25 +0100</pubDate>
+    </item>
+    <item>
+      <title>Microsoft meldt kritiek Visio-lek dat via Exchange-servers is te misbruiken</title>
+      <description>Een kritieke kwetsbaarheid in Microsoft Office Visio die remote code execution mogelijk maakt is zonder interactie van ...</description>
+      <link>https://www.security.nl/posting/963084/Microsoft+meldt+kritiek+Visio-lek+dat+via+Exchange-servers+is+te+misbruiken?channel=rss</link>
+      <guid>https://www.security.nl/posting/963084/Microsoft+meldt+kritiek+Visio-lek+dat+via+Exchange-servers+is+te+misbruiken</guid>
+      <pubDate>Wed, 25 Nov 2026 11:42:52 +0100</pubDate>
+    </item>
+    <item>
+      <title>Wanneer is het nodig om klanten opnieuw te mailen met updates over een datalek?</title>
+      <description>Juridische vraag: We hebben een datalek gehad en meteen al onze klanten gewaarschuwd en melding gedaan bij de Autoriteit ...</description>
+      <link>https://www.security.nl/posting/963081/Wanneer+is+het+nodig+om+klanten+opnieuw+te+mailen+met+updates+over+een+datalek%3F?channel=rss</link>
+      <guid>https://www.security.nl/posting/963081/Wanneer+is+het+nodig+om+klanten+opnieuw+te+mailen+met+updates+over+een+datalek%3F</guid>
+      <pubDate>Wed, 25 Nov 2026 11:09:01 +0100</pubDate>
+    </item>
+    <item>
+      <title>Optimizely: malafide code op populaire sites via lek in accountregistratie</title>
+      <description>De aanvallers die onlangs malafide code op allerlei populaire websites wisten te injecteren, waaronder ABN Amro, ICS Cards, ...</description>
+      <link>https://www.security.nl/posting/963075/Optimizely%3A+malafide+code+op+populaire+sites+via+lek+in+accountregistratie?channel=rss</link>
+      <guid>https://www.security.nl/posting/963075/Optimizely%3A+malafide+code+op+populaire+sites+via+lek+in+accountregistratie</guid>
+      <pubDate>Wed, 25 Nov 2026 11:02:54 +0100</pubDate>
+    </item>
+    <item>
       <title>AP: gemeenten moeten bedreigde mensen op mogelijkheid briefadres wijzen</title>
       <description>Gemeenten moeten inwoners die worden bedreigd actief wijzen op de mogelijkheid een briefadres te krijgen, zo vindt de ...</description>
       <link>https://www.security.nl/posting/963072/AP%3A+gemeenten+moeten+bedreigde+mensen+op+mogelijkheid+briefadres+wijzen?channel=rss</link>
       <guid>https://www.security.nl/posting/963072/AP%3A+gemeenten+moeten+bedreigde+mensen+op+mogelijkheid+briefadres+wijzen</guid>
       <pubDate>Wed, 25 Nov 2026 10:41:15 +0100</pubDate>
-    </item>
-    <item>
-      <title>Palo Alto Networks dicht Linux-lek gebruikt voor rooten van firewalls</title>
-      <description>Palo Alto Networks heeft updates uitgebracht voor een kwetsbaarheid in de Linux-kernel die is gebruikt voor het rooten van ...</description>
-      <link>https://www.security.nl/posting/963063/Palo+Alto+Networks+dicht+Linux-lek+gebruikt+voor+rooten+van+firewalls?channel=rss</link>
-      <guid>https://www.security.nl/posting/963063/Palo+Alto+Networks+dicht+Linux-lek+gebruikt+voor+rooten+van+firewalls</guid>
-      <pubDate>Wed, 25 Nov 2026 10:09:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Kritiek Drupal-lek misbruikt bij aanvallen op websites, waarschuwt VS</title>
-      <description>Aanvallers maken actief misbruik van een kritieke kwetsbaarheid in contentmanagementsysteem (CMS) Drupal voor het aanvallen van ...</description>
-      <link>https://www.security.nl/posting/963060/Kritiek+Drupal-lek+misbruikt+bij+aanvallen+op+websites%2C+waarschuwt+VS?channel=rss</link>
-      <guid>https://www.security.nl/posting/963060/Kritiek+Drupal-lek+misbruikt+bij+aanvallen+op+websites%2C+waarschuwt+VS</guid>
-      <pubDate>Wed, 25 Nov 2026 09:41:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Danfoss-koelsystemen via kritiek lek op afstand over te nemen</title>
-      <description>Koelsystemen van leverancier Danfoss zijn via een kritieke kwetsbaarheid op afstand over te nemen en een beveiligingsupdate ...</description>
-      <link>https://www.security.nl/posting/962992/Danfoss-koelsystemen+via+kritiek+lek+op+afstand+over+te+nemen?channel=rss</link>
-      <guid>https://www.security.nl/posting/962992/Danfoss-koelsystemen+via+kritiek+lek+op+afstand+over+te+nemen</guid>
-      <pubDate>Tue, 24 Nov 2026 17:09:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Mozilla dicht ruimt honderd Firefox-lekken, biedt vpn-optie per website</title>
-      <description>Mozilla heeft een nieuwe versie van Firefox uitgebracht waarmee meer dan honderd beveiligingslekken in de browser zijn gedicht. ...</description>
-      <link>https://www.security.nl/posting/962987/Mozilla+dicht+ruimt+honderd+Firefox-lekken%2C+biedt+vpn-optie+per+website?channel=rss</link>
-      <guid>https://www.security.nl/posting/962987/Mozilla+dicht+ruimt+honderd+Firefox-lekken%2C+biedt+vpn-optie+per+website</guid>
-      <pubDate>Tue, 24 Nov 2026 16:40:39 +0100</pubDate>
     </item>
   </channel>
 </rss>
