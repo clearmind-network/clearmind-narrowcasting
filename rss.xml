@@ -62,39 +62,39 @@
       <pubDate>Tue, 22 Apr 2025 05:54:32 GMT</pubDate>
     </item>
     <item>
-      <title>Kritiek beveiligingslek in koelsystemen Copeland misbruikt bij aanvallen</title>
-      <description>Aanvallers maken misbruik van een kritieke kwetsbaarheid in koelsystemen van leverancier Copeland waardoor de apparaten op ...</description>
-      <link>https://www.security.nl/posting/963152/Kritiek+beveiligingslek+in+koelsystemen+Copeland+misbruikt+bij+aanvallen?channel=rss</link>
-      <guid>https://www.security.nl/posting/963152/Kritiek+beveiligingslek+in+koelsystemen+Copeland+misbruikt+bij+aanvallen</guid>
-      <pubDate>Wed, 25 Nov 2026 17:19:35 +0100</pubDate>
-    </item>
-    <item>
-      <title>Todoist lekt wachtwoordhashes, tokens en e-mailadressen gebruikers</title>
-      <description>Taken-app Todoist is getroffen door een hack, waarbij een aanvaller toegang wist te krijgen tot productiesystemen en gegevens ...</description>
-      <link>https://www.security.nl/posting/963142/Todoist+lekt+wachtwoordhashes%2C+tokens+en+e-mailadressen+gebruikers?channel=rss</link>
-      <guid>https://www.security.nl/posting/963142/Todoist+lekt+wachtwoordhashes%2C+tokens+en+e-mailadressen+gebruikers</guid>
-      <pubDate>Wed, 25 Nov 2026 16:52:08 +0100</pubDate>
-    </item>
-    <item>
-      <title>Schoenenwinkel vanHaren waarschuwt klanten voor datalek</title>
-      <description>Schoenenwinkel vanHaren heeft klanten vandaag gewaarschuwd voor een datalek, waarbij allerlei persoonsgegevens zijn gestolen. ...</description>
-      <link>https://www.security.nl/posting/963145/Schoenenwinkel+vanHaren+waarschuwt+klanten+voor+datalek?channel=rss</link>
-      <guid>https://www.security.nl/posting/963145/Schoenenwinkel+vanHaren+waarschuwt+klanten+voor+datalek</guid>
-      <pubDate>Wed, 25 Nov 2026 16:24:00 +0100</pubDate>
-    </item>
-    <item>
-      <title>Belgische politie adviseert uitschakelen admin-gebruiker op slimme apparaten</title>
-      <description>De Belgische politie adviseert mensen om de admin-gebruiker op slimme apparaten uit te schakelen en een account met een andere ...</description>
-      <link>https://www.security.nl/posting/963137/Belgische+politie+adviseert+uitschakelen+admin-gebruiker+op+slimme+apparaten?channel=rss</link>
-      <guid>https://www.security.nl/posting/963137/Belgische+politie+adviseert+uitschakelen+admin-gebruiker+op+slimme+apparaten</guid>
-      <pubDate>Wed, 25 Nov 2026 16:10:34 +0100</pubDate>
-    </item>
-    <item>
       <title>DIVD publiceert onderzoek naar hack: 'Aanvaller voerde ARP spoofing-aanval uit'</title>
       <description>Het  Dutch Institute for Vulnerability Disclosure (DIVD) heeft het rapport gepubliceerd van het forensisch onderzoek dat naar ...</description>
       <link>https://www.security.nl/posting/963124/DIVD+publiceert+onderzoek+naar+hack%3A+%27Aanvaller+voerde+ARP+spoofing-aanval+uit%27?channel=rss</link>
       <guid>https://www.security.nl/posting/963124/DIVD+publiceert+onderzoek+naar+hack%3A+%27Aanvaller+voerde+ARP+spoofing-aanval+uit%27</guid>
       <pubDate>Wed, 25 Nov 2026 15:40:10 +0100</pubDate>
+    </item>
+    <item>
+      <title>Britse overheid overweegt verplichte leeftijdsverificatie voor eBay en Vinted</title>
+      <description>De Britse overheid overweegt of de verplichte leeftijdsverificatie voor social media naar eBay, Vinted en andere websites moet ...</description>
+      <link>https://www.security.nl/posting/963116/Britse+overheid+overweegt+verplichte+leeftijdsverificatie+voor+eBay+en+Vinted?channel=rss</link>
+      <guid>https://www.security.nl/posting/963116/Britse+overheid+overweegt+verplichte+leeftijdsverificatie+voor+eBay+en+Vinted</guid>
+      <pubDate>Wed, 25 Nov 2026 14:42:18 +0100</pubDate>
+    </item>
+    <item>
+      <title>'Data 1,2 miljoen Belgen gestolen door aanvaller met nauwelijks technische kennis'</title>
+      <description>Een aanvaller met 'nauwelijks technische kennis' heeft met behulp van een AI-agent de persoonsgegevens van 1,2 miljoen Belgen ...</description>
+      <link>https://www.security.nl/posting/963105/%27Data+1%2C2+miljoen+Belgen+gestolen+door+aanvaller+met+nauwelijks+technische+kennis%27?channel=rss</link>
+      <guid>https://www.security.nl/posting/963105/%27Data+1%2C2+miljoen+Belgen+gestolen+door+aanvaller+met+nauwelijks+technische+kennis%27</guid>
+      <pubDate>Wed, 25 Nov 2026 13:55:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Experts hekelen biometrische gezichtsscans door bedrijven: 'Dit is illegaal'</title>
+      <description>Verschillende experts zijn kritisch op de biometrische gezichtsscans die bedrijven zoals DHL, YoungCapital en Randstad bij ...</description>
+      <link>https://www.security.nl/posting/963087/Experts+hekelen+biometrische+gezichtsscans+door+bedrijven%3A+%27Dit+is+illegaal%27?channel=rss</link>
+      <guid>https://www.security.nl/posting/963087/Experts+hekelen+biometrische+gezichtsscans+door+bedrijven%3A+%27Dit+is+illegaal%27</guid>
+      <pubDate>Wed, 25 Nov 2026 12:18:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Microsoft meldt kritiek Visio-lek dat via Exchange-servers is te misbruiken</title>
+      <description>Een kritieke kwetsbaarheid in Microsoft Office Visio die remote code execution mogelijk maakt is zonder interactie van ...</description>
+      <link>https://www.security.nl/posting/963084/Microsoft+meldt+kritiek+Visio-lek+dat+via+Exchange-servers+is+te+misbruiken?channel=rss</link>
+      <guid>https://www.security.nl/posting/963084/Microsoft+meldt+kritiek+Visio-lek+dat+via+Exchange-servers+is+te+misbruiken</guid>
+      <pubDate>Wed, 25 Nov 2026 11:42:52 +0100</pubDate>
     </item>
   </channel>
 </rss>
